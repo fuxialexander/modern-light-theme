@@ -337,7 +337,7 @@
      `(info-title-4 ((,class (:height 1.2))))
 
 ;;;;; ivy
-     `(ivy-current-match ((,class (:background ,highlight :inherit bold))))
+     `(ivy-current-match ((,class (:background ,highlight :weight bold))))
      `(ivy-minibuffer-match-face-1 ((,class (:inherit bold))))
      `(ivy-minibuffer-match-face-2 ((,class (:foreground ,head1 :underline t))))
      `(ivy-minibuffer-match-face-3 ((,class (:foreground ,head4 :underline t))))
