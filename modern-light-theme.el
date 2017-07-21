@@ -1,7 +1,7 @@
-(require 'spacemacs-common)
+(require 'modern-common)
 
-(deftheme spacemacs-light "Spacemacs theme, the light version")
+(deftheme modern-light "Modern theme, the light version")
 
-(create-spacemacs-theme 'light 'spacemacs-light)
+(create-modern-theme 'light 'modern-light)
 
-(provide-theme 'spacemacs-light)
+(provide-theme 'modern-light)
