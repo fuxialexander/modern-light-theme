@@ -154,7 +154,7 @@
 
 ;;;;; basics
      `(cursor ((,class (:background ,cursor))))
-     `(custom-button ((,class :background ,bg2 :foreground ,base :box (:line-width 1 :style none))))
+     `(custom-button ((,class :background ,bg2 :foreground ,base :box (:line-width 1 :style ))))
      `(default ((,class (:background ,bg1 :foreground ,base))))
      `(default-italic ((,class (:italic t))))
      `(error ((,class (:foreground ,err))))
