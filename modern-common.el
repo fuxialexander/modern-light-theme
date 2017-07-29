@@ -89,9 +89,9 @@
         (base          (if (eq variant 'dark) (if (true-color-p) "#ECEBE7" "#b2b2b2") (if (true-color-p) "#333332" "#5f5f87")))
         (base-dim      (if (eq variant 'dark) (if (true-color-p) "#9BA3A6" "#585858") (if (true-color-p) "#60605F" "#afafd7")))
         (bg1           (if (eq variant 'dark) (if (true-color-p) "#0B0908" "#262626") (if (true-color-p) "#ffffff" "#ffffff")))
-        (bg2           (if (eq variant 'dark) (if (true-color-p) "#1A1513" "#1c1c1c") (if (true-color-p) "#FFFEFC" "#e4e4e4")))
-        (bg3           (if (eq variant 'dark) (if (true-color-p) "#211B18" "#121212") (if (true-color-p) "#CCCCCC" "#d0d0d0")))
-        (bg4           (if (eq variant 'dark) (if (true-color-p) "#29211E" "#080808") (if (true-color-p) "#999999" "#bcbcbc")))
+        (bg2           (if (eq variant 'dark) (if (true-color-p) "#222222" "#1c1c1c") (if (true-color-p) "#FFFEFC" "#e4e4e4")))
+        (bg3           (if (eq variant 'dark) (if (true-color-p) "#333333" "#121212") (if (true-color-p) "#CCCCCC" "#d0d0d0")))
+        (bg4           (if (eq variant 'dark) (if (true-color-p) "#9BA3A6" "#080808") (if (true-color-p) "#999999" "#bcbcbc")))
         (border        (if (eq variant 'dark) (if (true-color-p) "#202933" "#111111") (if (true-color-p) "#73B3FF" "#b3b9be")))
         (cblk          (if (eq variant 'dark) (if (true-color-p) "#ECEBE7" "#b2b2b2") (if (true-color-p) "#332A2A" "#5f5f87")))
         (cblk-bg       (if (eq variant 'dark) (if (true-color-p) "#202933" "#262626") (if (true-color-p) "#FFF0F0" "#ffffff")))
@@ -154,7 +154,7 @@
 
 ;;;;; basics
      `(cursor ((,class (:background ,cursor))))
-     `(custom-button ((,class :background ,bg2 :foreground ,base :box (:line-width 2 :style released-button))))
+     `(custom-button ((,class :background ,bg2 :foreground ,base :box (:line-width 1 :style none))))
      `(default ((,class (:background ,bg1 :foreground ,base))))
      `(default-italic ((,class (:italic t))))
      `(error ((,class (:foreground ,err))))
