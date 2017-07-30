@@ -6,31 +6,6 @@
 ;; URL: <https://github.com/nashamri/modern-theme>
 ;;
 ;; Version: 0.1
-;; Keywords: color, theme
-;; Package-Requires: ((emacs "24"))
-
-;; Initially created with the help of emacs-theme-generator, <https://github.com/mswift42/theme-creator>.
-
-;; This program is free software: you can redistribute it and/or modify
-;; it under the terms of the GNU General Public License as published by
-;; the Free Software Foundation, either version 3 of the License, or
-;; (at your option) any later version.
-
-;; This program is distributed in the hope that it will be useful,
-;; but WITHOUT ANY WARRANTY; without even the implied warranty of
-;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-;; GNU General Public License for more details.
-
-;; You should have received a copy of the GNU General Public License
-;; along with this program. If not, see <http://www.gnu.org/licenses/>.
-
-;; This file is not part of Emacs.
-
-;;; Commentary:
-
-;; This is a color theme for modern <https://github.com/syl20bnr/modern>.
-;; It comes with two versions, dark and light and should work well in
-;; a 256 color terminal.
 
 ;;; Code:
 
@@ -406,15 +381,14 @@
             `(magit-section-title ((,class (:background ,bg1 :foreground ,keyword :inherit bold))))
 
 ;;;;; Outline
-            `(outline-1 :height 1.25 :foreground "#9E6FB8" :weight ultra-bold :italic t :underline t)
-            `(outline-2 :height 1.15 :foreground "#FF7D76" :weight extra-bold :italic t :underline t)
-            `(outline-3 :height 1.15 :foreground "#A9CC00" :weight bold :italic t :underline t) 
-            `(outline-4 :foreground "#FF7D76" :weight bold :italic t) 
-            `(outline-5 :foreground "#A9CC00" :weight bold :italic t) 
-            `(outline-6 :foreground "#AF7BCC" :weight bold :italic t) 
-            `(outline-7 :foreground "#FFBF19" :weight bold :italic t) 
-            `(outline-8 :foreground "#4BA8AF" :weight bold :italic t) 
-
+            `(outline-1 ((,class (:height 1.25 :foreground "#9E6FB8" :weight ultra-bold :italic t :underline t))))
+            `(outline-2 ((,class (:height 1.15 :foreground "#FF7D76" :weight extra-bold :italic t :underline t))))
+            `(outline-3 ((,class (:height 1.15 :foreground "#A9CC00" :weight bold :italic t :underline t))))
+            `(outline-4 ((,class (:foreground "#FF7D76" :weight bold :italic t))))
+            `(outline-5 ((,class (:foreground "#A9CC00" :weight bold :italic t))))
+            `(outline-6 ((,class (:foreground "#AF7BCC" :weight bold :italic t))))
+            `(outline-7 ((,class (:foreground "#FFBF19" :weight bold :italic t))))
+            `(outline-8 ((,class (:foreground "#4BA8AF" :weight bold :italic t))))
 
 ;;;;; man
             `(Man-overstrike ((,class (:foreground ,head1 :inherit bold))))
