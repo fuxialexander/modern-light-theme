@@ -448,7 +448,7 @@
      `(org-date-selected ((,class (:background ,func :foreground ,bg1))))
      `(org-document-info-keyword ((,class (:foreground ,meta))))
      `(org-document-title ((,class (:foreground ,func :inherit bold :height ,(if modern-theme-org-height 1.4 1.0) :underline t))))
-     `(org-headline-done ((,class (:foreground ,bg4 :weight bold :background ,bg1))))
+     `(org-headline-done ((,class (:foreground ,bg4 :weight bold :slant italic :background ,bg1))))
      `(org-ellipsis ((,class (:foreground ,bg3))))
      `(org-footnote  ((,class (:underline t :foreground ,base))))
      `(org-hide ((,class (:foreground ,base))))
