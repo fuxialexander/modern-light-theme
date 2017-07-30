@@ -104,7 +104,7 @@
         (comment-bg    (if (eq variant 'dark) (if (true-color-p) "#0B0908" "#262626") (if (true-color-p) "#FFFAFA" "#ffffff")))
         (comp          (if (eq variant 'dark) (if (true-color-p) "#8CB6E1" "#d75fd7") (if (true-color-p) "#5585BD" "#8700af")))
         (err           (if (eq variant 'dark) (if (true-color-p) "#FF7974" "#e0211d") (if (true-color-p) "#FF493F" "#e0211d")))
-        (func          (if (eq variant 'dark) (if (true-color-p) "#D8CE5C" "#d75fd7") (if (true-color-p) "#5585BD" "#8700af")))
+        (func          (if (eq variant 'dark) (if (true-color-p) "#CFD838" "#d75fd7") (if (true-color-p) "#5585BD" "#8700af")))
 
         (head1         (if (eq variant 'dark) (if (true-color-p) "#5585BD" "#268bd2") (if (true-color-p) "#5585BD" "#268bd2")))
         (head1-bg     (if (eq variant 'dark) (if (true-color-p) "#293239" "#262626") (if (true-color-p) "#D7E9FF" "#ffffff")))
@@ -119,7 +119,7 @@
         (highlight-dim (if (eq variant 'dark) (if (true-color-p) "#3F5266" "#444444") (if (true-color-p) "#AFD4FF" "#d7d7ff")))
         (keyword       (if (eq variant 'dark) (if (true-color-p) "#5585BD" "#268bd2") (if (true-color-p) "#5585BD" "#268bd2")))
         (lnum          (if (eq variant 'dark) (if (true-color-p) "#44505c" "#444444") (if (true-color-p) "#a8a8bf" "#af87af")))
-        (mat           (if (eq variant 'dark) (if (true-color-p) "#D8CE5C" "#86dc2f") (if (true-color-p) "#D43D34" "#af005f")))
+        (mat           (if (eq variant 'dark) (if (true-color-p) "#CFD838" "#86dc2f") (if (true-color-p) "#D43D34" "#af005f")))
         (meta          (if (eq variant 'dark) (if (true-color-p) "#333332" "#af875f") (if (true-color-p) "#60605F" "#df5f5f")))
         (str           (if (eq variant 'dark) (if (true-color-p) "#2d9574" "#2aa198") (if (true-color-p) "#819C00" "#2aa198")))
         (suc           (if (eq variant 'dark) (if (true-color-p) "#E5FF6D" "#86dc2f") (if (true-color-p) "#A9CC00" "#00af00")))
@@ -133,7 +133,7 @@
         ;; colors
         (aqua          (if (eq variant 'dark) (if (true-color-p) "#80CABF" "#2aa198") (if (true-color-p) "#4BA8AF" "#2aa198")))
         (aqua-bg       (if (eq variant 'dark) (if (true-color-p) "#3F5266" "#262626") (if (true-color-p) "#D5FCFF" "#ffffff")))
-        (green         (if (eq variant 'dark) (if (true-color-p) "#D8CE5C" "#67b11d") (if (true-color-p) "#819C00" "#5faf00")))
+        (green         (if (eq variant 'dark) (if (true-color-p) "#CFD838" "#67b11d") (if (true-color-p) "#819C00" "#5faf00")))
         (green-bg      (if (eq variant 'dark) (if (true-color-p) "#66622C" "#262626") (if (true-color-p) "#F2FFB6" "#ffffff")))
         (green-bg-s    (if (eq variant 'dark) (if (true-color-p) "#66622C" "#262626") (if (true-color-p) "#ECFF92" "#ffffff")))
         (cyan          (if (eq variant 'dark) (if (true-color-p) "#8CB6E1" "#00ffff") (if (true-color-p) "#5585BD" "#008080")))
