@@ -478,6 +478,7 @@
 
 ;;;;; powerline
             `(mode-line ((,class (:background ,act2 :foreground ,base :family "Input Mono condensed"))))
+            `(mode-line-highlight ((,class (:background ,act2 :foreground ,base :family "Input Mono condensed"))))
             `(powerline-active1 ((,class (:background ,act2 :foreground ,base :family "Input Mono condensed"))))
             `(powerline-active2 ((,class (:background ,act2 :foreground ,base :family "Input Mono condensed"))))
             `(powerline-inactive1 ((,class (:background ,act2 :foreground ,base :family "Input Mono condensed"))))
