@@ -59,8 +59,8 @@
   (dyn-let ((class '((class color) (min-colors 89))) ;;              ~~ Dark ~~                              ~~ Light ~~
             ;;                                                                 GUI       TER                           GUI       TER
             ;; generic
-            (act1          (if (eq variant 'dark) (if (true-color-p) "#333332" "#121212") (if (true-color-p) "#AFD4FF" "#d7dfff")))
-            (act2          (if (eq variant 'dark) (if (true-color-p) "#333332" "#444444") (if (true-color-p) "#AFD4FF" "#afafd7")))
+            (act1          (if (eq variant 'dark) (if (true-color-p) "#333332" "#121212") (if (true-color-p) "#E4E4E4" "#d7dfff")))
+            (act2          (if (eq variant 'dark) (if (true-color-p) "#333332" "#444444") (if (true-color-p) "#E4E4E4" "#afafd7")))
             (base          (if (eq variant 'dark) (if (true-color-p) "#ECEBE7" "#b2b2b2") (if (true-color-p) "#333332" "#5f5f87")))
             (base-dim      (if (eq variant 'dark) (if (true-color-p) "#9BA3A6" "#585858") (if (true-color-p) "#60605F" "#afafd7")))
             (bg1           (if (eq variant 'dark) (if (true-color-p) "#0B0908" "#262626") (if (true-color-p) "#ffffff" "#ffffff")))
