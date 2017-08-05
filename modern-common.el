@@ -445,7 +445,7 @@
             `(org-level-6 ((,class (:weight bold :slant italic :foreground ,head2))))
             `(org-level-7 ((,class (:weight bold :slant italic :foreground ,head3))))
             `(org-level-8 ((,class (:weight bold :slant italic :foreground ,head4))))
-            `(org-link ((,class (:underline t :foreground ,comment))))
+            `(org-link ((,class (:underline t))))
             `(org-meta-line ((,class (:foreground ,meta))))
             `(org-mode-line-clock-overrun ((,class (:foreground ,err))))
             `(org-priority ((,class (:foreground ,war :height 0.85 :family "input mono compressed" :inherit bold))))
