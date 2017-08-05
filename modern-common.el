@@ -31,7 +31,7 @@
   :type 'boolean
   :group 'modern-theme)
 
-(defcustom modern-theme-org-height t
+(defcustom modern-theme-org-height nil
   "Use varying text heights for org headings."
   :type 'boolean
   :group 'modern-theme)
@@ -381,9 +381,9 @@
             `(magit-section-title ((,class (:background ,bg1 :foreground ,keyword :inherit bold))))
 
 ;;;;; Outline
-            `(outline-1 ((,class (:height 1.25 :foreground "#9E6FB8" :weight ultra-bold :italic t :underline t))))
-            `(outline-2 ((,class (:height 1.15 :foreground "#FF7D76" :weight extra-bold :italic t :underline t))))
-            `(outline-3 ((,class (:height 1.15 :foreground "#A9CC00" :weight bold :italic t :underline t))))
+            `(outline-1 ((,class (:foreground "#9E6FB8" :weight ultra-bold :italic t :underline t))))
+            `(outline-2 ((,class (:foreground "#FF7D76" :weight extra-bold :italic t :underline t))))
+            `(outline-3 ((,class (:foreground "#A9CC00" :weight bold :italic t :underline t))))
             `(outline-4 ((,class (:foreground "#FF7D76" :weight bold :italic t))))
             `(outline-5 ((,class (:foreground "#A9CC00" :weight bold :italic t))))
             `(outline-6 ((,class (:foreground "#AF7BCC" :weight bold :italic t))))
