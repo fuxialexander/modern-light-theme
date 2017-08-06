@@ -407,6 +407,7 @@
             `(mode-line           ((,class (:foreground ,base :background ,act1))))
             `(mode-line-buffer-id ((,class (:inherit bold :foreground ,func))))
             `(mode-line-inactive  ((,class (:foreground ,base :background ,bg2))))
+            `(mode-line-vcs  ((,class (:foreground ,base :background ,bg2 :weight bold))))
 
 ;;;;; neotree
             `(neo-dir-link-face ((,class (:foreground ,keyword :inherit bold))))
