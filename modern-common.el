@@ -95,7 +95,7 @@
             (keyword       (if (eq variant 'dark) (if (true-color-p) "#53B9E5" "#268bd2") (if (true-color-p) "#5585BD" "#268bd2")))
             (lnum          (if (eq variant 'dark) (if (true-color-p) "#44505c" "#444444") (if (true-color-p) "#a8a8bf" "#af87af")))
             (mat           (if (eq variant 'dark) (if (true-color-p) "#CFD838" "#86dc2f") (if (true-color-p) "#D43D34" "#af005f")))
-            (meta          (if (eq variant 'dark) (if (true-color-p) "#333332" "#af875f") (if (true-color-p) "#60605F" "#df5f5f")))
+            (meta          (if (eq variant 'dark) (if (true-color-p) "#535356" "#af875f") (if (true-color-p) "#60605F" "#df5f5f")))
             (str           (if (eq variant 'dark) (if (true-color-p) "#2d9574" "#2aa198") (if (true-color-p) "#819C00" "#2aa198")))
             (suc           (if (eq variant 'dark) (if (true-color-p) "#E5FF6D" "#86dc2f") (if (true-color-p) "#A9CC00" "#00af00")))
             (ttip          (if (eq variant 'dark) (if (true-color-p) "#3F5266" "#888888") (if (true-color-p) "#53B9E5" "#5f5f87")))
