@@ -142,6 +142,13 @@
             ;; `(doom-modeline-eldoc-bar ((,class ())))
             `(doom-modeline-inactive-bar ((,class (:background ,blue-bg))))
 
+;;;;; git-gutter+
+            '(git-gutter+-added ((t (:foreground ,green :weight bold))))
+            '(git-gutter+-deleted ((t (:foreground ,red :weight bold))))
+            '(git-gutter+-modified ((t (:foreground ,yellow :weight bold))))
+            '(git-gutter+-separator ((t (:foreground ,blue :weight bold))))
+
+
 ;;;;; basics
             `(cursor ((,class (:background ,cursor))))
             `(custom-button ((,class :background ,bg2 :foreground ,base :box (:line-width 1 :style ))))
