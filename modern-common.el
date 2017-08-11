@@ -336,9 +336,9 @@
 ;;;;; ivy
             `(ivy-current-match                      ((,class (:background ,highlight :weight bold))))
             `(ivy-minibuffer-match-face-1            ((,class (:weight bold))))
-            `(ivy-minibuffer-match-face-2            ((,class (:foreground ,yellow :underline t))))
-            `(ivy-minibuffer-match-face-3            ((,class (:foreground ,blue :underline t))))
-            `(ivy-minibuffer-match-face-4            ((,class (:foreground ,magenta :underline t))))
+            `(ivy-minibuffer-match-face-2            ((,class (:foreground ,yellow :background: ,yellow-bg :underline t))))
+            `(ivy-minibuffer-match-face-3            ((,class (:foreground ,blue :background: ,blue-bg :underline t))))
+            `(ivy-minibuffer-match-face-4            ((,class (:foreground ,magenta :background: ,magenta-bg :underline t))))
             `(ivy-remote                             ((,class (:foreground ,cyan))))
 
 ;;;;; swiper
