@@ -142,6 +142,8 @@
             `(doom-modeline-bar                      ((,class (:background ,blue))))
             ;; `(doom-modeline-eldoc-bar             ((,class ())))
             `(doom-modeline-inactive-bar             ((,class (:background ,blue-bg))))
+            `(window-divider ((,class (:inherit mode-line))))
+
 
 ;;;;; git-gutter+
             `(git-gutter+-added                      ((,class (:foreground ,green :weight bold))))
