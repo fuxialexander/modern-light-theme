@@ -142,7 +142,7 @@
             `(doom-modeline-bar                      ((,class (:background ,blue))))
             ;; `(doom-modeline-eldoc-bar             ((,class ())))
             `(doom-modeline-inactive-bar             ((,class (:background ,blue-bg))))
-            `(window-divider ((,class (:foreground act1))))
+            `(window-divider ((,class (:foreground ,act1))))
 
 
 ;;;;; git-gutter+
