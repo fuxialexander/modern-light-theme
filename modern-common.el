@@ -131,7 +131,7 @@
             `(doom-modeline-buffer-path((,class (:foreground ,aqua :bold t))))
             `(doom-modeline-buffer-file((,class (:foreground ,blue :bold t))))
             `(doom-modeline-buffer-modified((,class (:foreground ,red :bold t))))
-            `(doom-modeline-buffer-major-mode((,class (:inherit ,war :bold t))))
+            `(doom-modeline-buffer-major-mode((,class (:foreground ,war :bold t))))
             `(doom-modeline-highlight((,class (:background ,blue :bold t))))
             `(doom-modeline-panel((,class (:background ,blue :foreground ,bg1))))
             ;; `(doom-modeline-info((,class ())))
