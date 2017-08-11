@@ -59,8 +59,8 @@
   (dyn-let ((class '((class color) (min-colors 89))) ;;              ~~ Dark ~~                              ~~ Light ~~
             ;;                                                                 GUI       TER                           GUI       TER
             ;; generic
-            (act1          (if (eq variant 'dark) (if (true-color-p) "#333332" "#121212") (if (true-color-p) "#E4E4E4" "#d7dfff")))
-            (act2          (if (eq variant 'dark) (if (true-color-p) "#333332" "#444444") (if (true-color-p) "#E4E4E4" "#afafd7")))
+            (act1          (if (eq variant 'dark) (if (true-color-p) "#333332" "#121212") (if (true-color-p) "#ECEBE7" "#d7dfff")))
+            (act2          (if (eq variant 'dark) (if (true-color-p) "#333332" "#444444") (if (true-color-p) "#ECEBE7" "#afafd7")))
             (base          (if (eq variant 'dark) (if (true-color-p) "#ECEBE7" "#b2b2b2") (if (true-color-p) "#333332" "#5f5f87")))
             (base-dim      (if (eq variant 'dark) (if (true-color-p) "#9BA3A6" "#585858") (if (true-color-p) "#60605F" "#afafd7")))
             (bg1           (if (eq variant 'dark) (if (true-color-p) "#0B0908" "#262626") (if (true-color-p) "#ffffff" "#ffffff")))
@@ -127,6 +127,19 @@
            (custom-theme-set-faces
             theme-name
 
+;;;;; doom-line
+            `(doom-modeline-buffer-path((,class (:foreground ,aqua :bold t))))
+            `(doom-modeline-buffer-file((,class (:foreground ,blue :bold t))))
+            `(doom-modeline-buffer-modified((,class (:foreground ,red :bold t))))
+            `(doom-modeline-buffer-major-mode((,class (:inherit ,war :bold t))))
+            `(doom-modeline-highlight((,class (:background ,blue :bold t))))
+            `(doom-modeline-panel((,class (:background ,blue :foreground ,bg1))))
+            ;; `(doom-modeline-info((,class ())))
+            `(doom-modeline-warning((,class (:bold t :foreground ,war :background ,bg1))))
+            `(doom-modeline-urgent((,class (:bold t :foreground ,err :background ,bg1))))
+            `(doom-modeline-bar((,class (:background ,blue))))
+            ;; `(doom-modeline-eldoc-bar((,class ())))
+            `(doom-modeline-inactive-bar((,class (:background ,green))))
 ;;;;; basics
             `(cursor ((,class (:background ,cursor))))
             `(custom-button ((,class :background ,bg2 :foreground ,base :box (:line-width 1 :style ))))
