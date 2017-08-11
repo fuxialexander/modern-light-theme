@@ -128,18 +128,20 @@
             theme-name
 
 ;;;;; doom-line
-            `(doom-modeline-buffer-path((,class (:foreground ,aqua :bold t))))
-            `(doom-modeline-buffer-file((,class (:foreground ,blue :bold t))))
-            `(doom-modeline-buffer-modified((,class (:foreground ,red :bold t))))
-            `(doom-modeline-buffer-major-mode((,class (:foreground ,war :bold t))))
-            `(doom-modeline-highlight((,class (:background ,blue :bold t))))
-            `(doom-modeline-panel((,class (:background ,blue :foreground ,bg1))))
-            ;; `(doom-modeline-info((,class ())))
-            `(doom-modeline-warning((,class (:bold t :foreground ,war))))
-            `(doom-modeline-urgent((,class (:bold t :foreground ,err))))
-            `(doom-modeline-bar((,class (:background ,blue))))
-            ;; `(doom-modeline-eldoc-bar((,class ())))
-            `(doom-modeline-inactive-bar((,class (:background ,blue-bg))))
+            `(doom-modeline-buffer-path ((,class (:foreground ,aqua :bold t))))
+            `(doom-modeline-buffer-file ((,class (:foreground ,blue :bold t))))
+            `(doom-modeline-buffer-modified ((,class (:foreground ,red :bold t))))
+            `(doom-modeline-buffer-major-mode ((,class (:foreground ,war :bold t))))
+            `(doom-modeline-highlight ((,class (:background ,blue :bold t))))
+            `(doom-modeline-panel ((,class (:background ,blue :foreground ,bg1))))
+            ;; `(doom-modeline-info ((,class ())))
+            `(doom-modeline-perspname ((,class (:foreground ,magenta :bold t))))
+            `(doom-modeline-warning ((,class (:bold t :foreground ,war))))
+            `(doom-modeline-urgent ((,class (:bold t :foreground ,err))))
+            `(doom-modeline-bar ((,class (:background ,blue))))
+            ;; `(doom-modeline-eldoc-bar ((,class ())))
+            `(doom-modeline-inactive-bar ((,class (:background ,blue-bg))))
+
 ;;;;; basics
             `(cursor ((,class (:background ,cursor))))
             `(custom-button ((,class :background ,bg2 :foreground ,base :box (:line-width 1 :style ))))
