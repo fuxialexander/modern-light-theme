@@ -346,7 +346,7 @@
 ;;;;; swiper
             `(swiper-line-face                       ((,class (:background ,highlight :inherit bold))))
             `(swiper-match-face-1                    ((,class (:inherit bold))))
-            `(swiper-match-face-2                    ((,class (:foreground ,yellow :background: ,yellow-bg :underline t))))
+            `(swiper-match-face-2                    ((,class :foreground ,yellow :background: ,yellow-bg :underline t)))
             `(swiper-match-face-3                    ((,class (:foreground ,blue :background: ,blue-bg :underline t))))
             `(swiper-match-face-4                    ((,class (:foreground ,magenta :background: ,magenta-bg  :underline t))))
 
