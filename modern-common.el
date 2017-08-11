@@ -143,10 +143,10 @@
             `(doom-modeline-inactive-bar ((,class (:background ,blue-bg))))
 
 ;;;;; git-gutter+
-            '(git-gutter+-added ((t (:foreground ,green :weight bold))))
-            '(git-gutter+-deleted ((t (:foreground ,red :weight bold))))
-            '(git-gutter+-modified ((t (:foreground ,yellow :weight bold))))
-            '(git-gutter+-separator ((t (:foreground ,blue :weight bold))))
+            '(git-gutter+-added ((,class (:foreground ,green :weight bold))))
+            '(git-gutter+-deleted ((,class (:foreground ,red :weight bold))))
+            '(git-gutter+-modified ((,class (:foreground ,yellow :weight bold))))
+            '(git-gutter+-separator ((,class (:foreground ,blue :weight bold))))
 
 
 ;;;;; basics
