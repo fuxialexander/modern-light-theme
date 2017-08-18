@@ -128,6 +128,12 @@
            (custom-theme-set-faces
             theme-name
 
+;;;;; Elfeed
+            `(elfeed-search-feed-face                ((,class (:foreground ,yellow :family "Input mono compressed"))))
+            `(elfeed-search-tag-face                 ((,class (:foreground ,aqua :family "input mono compressed"))))
+            `(variable-pitch                         ((,class (:height 1.4 :family "Source sans pro"))))
+
+
 ;;;;; doom-line
             `(doom-modeline-buffer-path              ((,class (:foreground ,aqua :bold t))))
             `(doom-modeline-project-root-dir         ((,class (:foreground ,aqua :bold t))))
@@ -143,7 +149,7 @@
             `(doom-modeline-bar                      ((,class (:background ,blue))))
             ;; `(doom-modeline-eldoc-bar             ((,class ())))
             `(doom-modeline-inactive-bar             ((,class (:background ,blue-bg))))
-            `(window-divider ((,class (:foreground ,act1))))
+            `(window-divider                         ((,class (:foreground ,act1))))
 
 
 ;;;;; git-gutter+
@@ -454,12 +460,14 @@
             `(org-agenda-date-weekend                ((,class (:foreground ,var))))
             `(org-agenda-done                        ((,class (:foreground ,bg4 :height ,(if modern-theme-org-agenda-height 1.2 1.0)))))
             `(org-agenda-structure                   ((,class (:inherit bold :overline t :underline t :slant italic :family "input mono compressed" :foreground ,comp))))
+
+
             `(org-block                              ((,class (:background ,cblk-bg :foreground ,cblk))))
             `(org-block-begin-line                   ((,class (:background ,cblk-ln-bg :foreground ,cblk-ln))))
             `(org-block-end-line                     ((,class (:background ,cblk-ln-bg :foreground ,cblk-ln))))
             `(org-clock-overlay                      ((,class (:foreground ,comp))))
             `(org-code                               ((,class (:foreground ,cyan))))
-            `(org-column                             ((,class (:background ,highlight))))
+            `(org-column                             ((,class (:foreground ,red))))
             `(org-column-title                       ((,class (:background ,highlight))))
             `(org-date                               ((,class (:underline t :weight normal :height 0.85 :family "input mono compressed" :foreground ,var))))
             `(org-date-selected                      ((,class (:background ,func :foreground ,bg1))))
@@ -489,7 +497,7 @@
             `(org-sexp-date                          ((,class (:foreground ,base))))
             `(org-special-keyword                    ((,class (:foreground ,func))))
             `(org-tag                                ((,class (:slant italic :weight bold :foreground ,aqua))))
-            `(org-table                              ((,class (:foreground ,base :family "iosevka" :background ,head1-bg))))
+            `(org-table                              ((,class (:foreground ,red ))))
             `(org-time-grid                          ((,class (:foreground ,str))))
             `(org-todo                               ((,class (:foreground ,war :inherit bold :background ,yellow-bg))))
             `(org-verbatim                           ((,class (:foreground ,keyword))))
