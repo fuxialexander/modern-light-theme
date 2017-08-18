@@ -130,13 +130,14 @@
 
 ;;;;; doom-line
             `(doom-modeline-buffer-path              ((,class (:foreground ,aqua :bold t))))
+            `(doom-modeline-project-root-dir         ((,class (:foreground ,aqua :bold t))))
             `(doom-modeline-buffer-file              ((,class (:foreground ,blue :bold t))))
             `(doom-modeline-buffer-modified          ((,class (:foreground ,red :bold t))))
             `(doom-modeline-buffer-major-mode        ((,class (:foreground ,war :bold t))))
             `(doom-modeline-highlight                ((,class (:background ,blue :bold t))))
             `(doom-modeline-panel                    ((,class (:background ,blue :foreground ,bg1 :bold t))))
             ;; `(doom-modeline-info                  ((,class ())))
-            `(doom-modeline-perspname                ((,class (:foreground ,magenta :bold t :inherit nil))))
+            `(doom-modeline-perspname                ((,class (:foreground ,magenta :bold t))))
             `(doom-modeline-warning                  ((,class (:bold t :foreground ,war))))
             `(doom-modeline-urgent                   ((,class (:bold t :foreground ,err))))
             `(doom-modeline-bar                      ((,class (:background ,blue))))
