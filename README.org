@@ -6,5 +6,15 @@ Three variants available for now:
 - ~modern-dark~
 - ~modern-dawn~
 
-* Known issue
-  Only works for GUI emacs, in terminal it fallbacks to ~spacemacs-dark~ or ~spacemacs-light~.
+** Install
+   On spacemacs ~develop~ branch:
+   #+BEGIN_SRC emacslisp
+   dotspacemacs-themes '(
+                         (modern-dawn :location (recipe :fetcher github :repo "fuxialexander/modern-light-theme"))
+                         (modern-dark :location (recipe :fetcher github :repo "fuxialexander/modern-light-theme"))
+                         (modern-light :location (recipe :fetcher github :repo "fuxialexander/modern-light-theme"))
+                         )
+   #+END_SRC
+
+** Known issue
+   Only works for GUI emacs, in terminal it fallbacks to ~spacemacs-dark~ or ~spacemacs-light~.
