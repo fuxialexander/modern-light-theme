@@ -8,7 +8,7 @@ Three variants available for now:
 
 ** Install
    On spacemacs ~develop~ branch:
-   #+BEGIN_SRC emacslisp
+   #+BEGIN_SRC elisp
    dotspacemacs-themes '(
                          (modern-dawn :location (recipe :fetcher github :repo "fuxialexander/modern-light-theme"))
                          (modern-dark :location (recipe :fetcher github :repo "fuxialexander/modern-light-theme"))
