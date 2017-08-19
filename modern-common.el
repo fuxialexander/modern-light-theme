@@ -36,7 +36,7 @@
   :type 'boolean
   :group 'modern-theme)
 
-(defcustom modern-theme-org-highlight t
+(defcustom modern-theme-org-highlight nil
   "Highlight org headings."
   :type 'boolean
   :group 'modern-theme)
@@ -144,20 +144,65 @@
             `(bold                                   ((,class (:foreground ,base-b :bold t))))
             `(variable-pitch                         ((,class (:height 1.4 :family "Source sans pro"))))
 
+;;;;; Notmuch
+
+            `(notmuch-crypto-decryption           ((,class (:background ,bg1     :foreground ,blue-l         ))))
+            `(notmuch-crypto-part-header          ((,class (:background ,bg1     :foreground ,yellow-l       ))))
+            `(notmuch-crypto-signature-bad        ((,class (:background ,bg1     :foreground ,red-l          ))))
+            `(notmuch-crypto-signature-good       ((,class (:background ,bg1     :foreground ,base           ))))
+            `(notmuch-crypto-signature-good-key   ((,class (:background ,bg1     :foreground ,aqua-l         ))))
+            `(notmuch-crypto-signature-unknown    ((,class (:background ,bg1     :foreground ,yellow         ))))
+
+            `(notmuch-hello-logo-background       ((,class (:background ,bg1     :foreground ,bg1            ))))
+            `(notmuch-message-summary-face        ((,class (:background ,bg4     :foreground ,base           ))))
+
+            `(notmuch-search-count                ((,class (:background ,bg1     :foreground ,yellow-bg      ))))
+            `(notmuch-search-date                 ((,class (:background ,bg1     :foreground ,aqua           ))))
+            `(notmuch-search-flagged-face         ((,class (:background ,red-bg                              ))))
+            `(notmuch-search-matching-authors     ((,class (:background ,bg1     :foreground ,blue-d         ))))
+            `(notmuch-search-non-matching-authors ((,class (:background ,bg1     :foreground ,blue           ))))
+            `(notmuch-search-subject              ((,class (:background ,bg1     :foreground ,base           ))))
+            `(notmuch-search-unread-face          ((,class (:background ,bg1     :foreground ,base-b :bold t ))))
+
+            `(notmuch-tag-added                   ((,class (:background ,bg1     :foreground ,green-d        ))))
+            `(notmuch-tag-deleted                 ((,class (:background ,bg1     :foreground ,red-d          ))))
+            `(notmuch-tag-face                    ((,class (:background ,bg1     :foreground ,blue-d         ))))
+            `(notmuch-tag-flagged                 ((,class (:background ,red-bg  :foreground ,blue-d         ))))
+            `(notmuch-tag-unread                  ((,class (:background ,bg1     :foreground ,blue-d         ))))
+
+            `(notmuch-tree-match-author-face      ((,class (:background ,bg1     :foreground ,blue-d         ))))
+            `(notmuch-tree-match-date-face        ((,class (:background ,bg1     :foreground ,aqua-d         ))))
+            `(notmuch-tree-match-face             ((,class (:background ,bg1     :foreground ,base           ))))
+            `(notmuch-tree-match-subject-face     ((,class (:background ,bg1     :foreground ,base           ))))
+            `(notmuch-tree-match-tag-face         ((,class (:background ,bg1     :foreground ,blue-d         ))))
+            `(notmuch-tree-match-tree-face        ((,class (:background ,bg1     :foreground ,yellow-d       ))))
+            `(notmuch-tree-no-match-author-face   ((,class (:background ,bg1     :foreground ,blue-l         ))))
+            `(notmuch-tree-no-match-date-face     ((,class (:background ,bg1     :foreground ,aqua-l         ))))
+            `(notmuch-tree-no-match-face          ((,class (:background ,bg1     :foreground ,base-dim       ))))
+            `(notmuch-tree-no-match-subject-face  ((,class (:background ,bg1     :foreground ,base-dim       ))))
+            `(notmuch-tree-no-match-tag-face      ((,class (:background ,bg1     :foreground ,blue-l         ))))
+            `(notmuch-tree-no-match-tree-face     ((,class (:background ,bg1     :foreground ,yellow-l       ))))
+
+            `(notmuch-wash-cited-text             ((,class (:background ,bg1     :foreground ,blue           ))))
+            `(notmuch-wash-toggle-button          ((,class (:background ,blue-bg :foreground ,blue           ))))
+
+
+
+
 ;;;;; Elfeed
-            `(elfeed-log-date-face                   ((,class (:foreground ,blue-l    :family "Input mono compressed"))))
+            `(elfeed-log-date-face                   ((,class (:foreground ,aqua-l    :family "Input mono compressed"))))
             `(elfeed-log-debug-level-face            ((,class (:foreground ,yellow-l  :family "Input mono compressed"))))
             `(elfeed-log-error-level-face            ((,class (:foreground ,red-l     :family "Input mono compressed"))))
             `(elfeed-log-info-level-face             ((,class (:foreground ,base      :family "Input mono compressed"))))
             `(elfeed-log-warn-level-face             ((,class (:foreground ,aqua-l    :family "Input mono compressed"))))
-            `(elfeed-search-date-face                ((,class (:foreground ,yellow-l  :family "Input mono compressed"))))
+            `(elfeed-search-date-face                ((,class (:foreground ,aqua-l  :family "Input mono compressed"))))
             `(elfeed-search-feed-face                ((,class (:foreground ,yellow    :family "Input mono compressed"))))
             `(elfeed-search-filter-face              ((,class (:foreground ,red-l     :family "Input mono compressed"))))
             `(elfeed-search-last-update-face         ((,class (:foreground ,magenta-l :family "Input mono compressed"))))
             `(elfeed-search-tag-face                 ((,class (:foreground ,blue-d    :family "Input mono compressed"))))
             `(elfeed-search-title-face               ((,class (:foreground ,base      :family "Input mono compressed"))))
             `(elfeed-search-unread-count-face        ((,class (:foreground ,blue-l    :family "Input mono compressed"))))
-            `(elfeed-search-unread-title-face        ((,class (:foreground ,base-b    :family "Input mono compressed"))))
+            `(elfeed-search-unread-title-face        ((,class (:foreground ,base-b    :family "Input mono compressed" :bold t))))
 
 ;;;;; Message
             `(message-cited-text                     ((,class (:foreground ,blue-l    ))))
@@ -335,11 +380,11 @@
             `(flycheck-fringe-info                   ((,class (:foreground ,keyword :inherit bold))))
             `(flycheck-fringe-warning                ((,class (:foreground ,war :inherit bold))))
             `(flycheck-info
-                                                     ((,(append '((supports :underline (:style line))) class)
+              ((,(append '((supports :underline (:style line))) class)
                 (:underline (:style line :color ,keyword)))
                (,class (:foreground ,base :background ,keyword :inherit bold :underline t))))
             `(flycheck-warning
-                                                     ((,(append '((supports :underline (:style line))) class)
+              ((,(append '((supports :underline (:style line))) class)
                 (:underline (:style line :color ,war)))
                (,class (:foreground ,base :background ,war :inherit bold :underline t))))
             `(flyspell-incorrect                     ((,class (:foreground ,err :inherit flycheck-error))))
