@@ -540,7 +540,7 @@
             `(org-agenda-date                        ((,class (:foreground ,var :height ,(if modern-theme-org-agenda-height 1.1 1.0)))))
             `(org-agenda-date-today                  ((,class (:foreground ,keyword :inherit bold :height ,(if modern-theme-org-agenda-height 1.3 1.0)))))
             `(org-agenda-date-weekend                ((,class (:foreground ,var))))
-            `(org-agenda-done                        ((,class (:foreground ,bg4 :height ,(if modern-theme-org-agenda-height 1.2 1.0)))))
+            `(org-agenda-done                        ((,class (:foreground ,base-dim :height ,(if modern-theme-org-agenda-height 1.2 1.0)))))
             `(org-agenda-structure                   ((,class (:inherit bold :overline t :underline t :slant italic :family "input mono compressed" :foreground ,comp))))
 
 
@@ -555,7 +555,7 @@
             `(org-date-selected                      ((,class (:background ,func :foreground ,bg1))))
             `(org-document-info-keyword              ((,class (:foreground ,meta))))
             `(org-document-title                     ((,class (:foreground ,func :inherit bold :height ,(if modern-theme-org-height 1.4 1.0) :underline t))))
-            `(org-headline-done                      ((,class (:foreground ,bg4 :weight bold :slant italic :background ,bg1))))
+            `(org-headline-done                      ((,class (:foreground ,base-dim :weight bold :slant italic :background ,bg1))))
             `(org-ellipsis                           ((,class (:foreground ,bg3))))
             `(org-footnote                           ((,class (:underline t :foreground ,base))))
             `(org-hide                               ((,class (:foreground ,base))))
