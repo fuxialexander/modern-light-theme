@@ -190,19 +190,19 @@
 
 
 ;;;;; Elfeed
-            `(elfeed-log-date-face                   ((,class (:foreground ,aqua-l    :family "Input mono compressed"))))
-            `(elfeed-log-debug-level-face            ((,class (:foreground ,yellow-l  :family "Input mono compressed"))))
-            `(elfeed-log-error-level-face            ((,class (:foreground ,red-l     :family "Input mono compressed"))))
-            `(elfeed-log-info-level-face             ((,class (:foreground ,base      :family "Input mono compressed"))))
-            `(elfeed-log-warn-level-face             ((,class (:foreground ,aqua-l    :family "Input mono compressed"))))
-            `(elfeed-search-date-face                ((,class (:foreground ,aqua-l  :family "Input mono compressed"))))
-            `(elfeed-search-feed-face                ((,class (:foreground ,yellow    :family "Input mono compressed"))))
-            `(elfeed-search-filter-face              ((,class (:foreground ,red-l     :family "Input mono compressed"))))
-            `(elfeed-search-last-update-face         ((,class (:foreground ,magenta-l :family "Input mono compressed"))))
-            `(elfeed-search-tag-face                 ((,class (:foreground ,blue-d    :family "Input mono compressed"))))
-            `(elfeed-search-title-face               ((,class (:foreground ,base      :family "Input mono compressed"))))
-            `(elfeed-search-unread-count-face        ((,class (:foreground ,blue-l    :family "Input mono compressed"))))
-            `(elfeed-search-unread-title-face        ((,class (:foreground ,base-b    :family "Input mono compressed" :bold t))))
+            `(elfeed-log-date-face                   ((,class (:foreground ,aqua-l    "))))
+            `(elfeed-log-debug-level-face            ((,class (:foreground ,yellow-l  "))))
+            `(elfeed-log-error-level-face            ((,class (:foreground ,red-l     "))))
+            `(elfeed-log-info-level-face             ((,class (:foreground ,base      "))))
+            `(elfeed-log-warn-level-face             ((,class (:foreground ,aqua-l    "))))
+            `(elfeed-search-date-face                ((,class (:foreground ,aqua-l  "))))
+            `(elfeed-search-feed-face                ((,class (:foreground ,yellow    "))))
+            `(elfeed-search-filter-face              ((,class (:foreground ,red-l     "))))
+            `(elfeed-search-last-update-face         ((,class (:foreground ,magenta-l "))))
+            `(elfeed-search-tag-face                 ((,class (:foreground ,blue-d    "))))
+            `(elfeed-search-title-face               ((,class (:foreground ,base      "))))
+            `(elfeed-search-unread-count-face        ((,class (:foreground ,blue-l    "))))
+            `(elfeed-search-unread-title-face        ((,class (:foreground ,base-b    " :bold t))))
 
 ;;;;; Message
             `(message-cited-text                     ((,class (:foreground ,blue-l    ))))
@@ -541,7 +541,7 @@
             `(org-agenda-date-today                  ((,class (:foreground ,keyword :inherit bold :height ,(if modern-theme-org-agenda-height 1.3 1.0)))))
             `(org-agenda-date-weekend                ((,class (:foreground ,var))))
             `(org-agenda-done                        ((,class (:foreground ,base-dim :height ,(if modern-theme-org-agenda-height 1.2 1.0)))))
-            `(org-agenda-structure                   ((,class (:inherit bold :overline t :underline t :slant italic :family "input mono compressed" :foreground ,comp))))
+            `(org-agenda-structure                   ((,class (:inherit bold :overline t :underline t :slant italic " :foreground ,comp))))
 
 
             `(org-block                              ((,class (:background ,cblk-bg :foreground ,cblk))))
@@ -551,7 +551,7 @@
             `(org-code                               ((,class (:foreground ,cyan))))
             `(org-column                             ((,class (:foreground ,red))))
             `(org-column-title                       ((,class (:background ,highlight))))
-            `(org-date                               ((,class (:underline t :weight normal :height 0.85 :family "input mono compressed" :foreground ,var))))
+            `(org-date                               ((,class (:underline t :weight normal :height 0.85 " :foreground ,var))))
             `(org-date-selected                      ((,class (:background ,func :foreground ,bg1))))
             `(org-document-info-keyword              ((,class (:foreground ,meta))))
             `(org-document-title                     ((,class (:foreground ,func :inherit bold :height ,(if modern-theme-org-height 1.4 1.0) :underline t))))
@@ -571,7 +571,7 @@
             `(org-link                               ((,class (:underline t))))
             `(org-meta-line                          ((,class (:foreground ,meta))))
             `(org-mode-line-clock-overrun            ((,class (:foreground ,err))))
-            `(org-priority                           ((,class (:foreground ,war :height 0.85 :family "input mono compressed" :inherit bold))))
+            `(org-priority                           ((,class (:foreground ,war :height 0.85 " :inherit bold))))
             `(org-quote                              ((,class (:inherit org-block :slant italic))))
             `(org-scheduled                          ((,class (:inherit org-level-3 :foreground ,comp))))
             `(org-scheduled-today                    ((,class (:inherit org-level-3 :foreground ,func :height ,(if modern-theme-org-agenda-height 1.2 1.0)))))
@@ -600,14 +600,14 @@
             `(popup-tip-face                         ((,class (:background ,ttip-sl :foreground ,base :bold nil :italic nil :underline nil))))
 
 ;;;;; powerline
-            `(mode-line                              ((,class (:background ,act2 :foreground ,base :family "Input Mono condensed"))))
-            `(mode-line-highlight                    ((,class (:background ,act2 :foreground ,base :family "Input Mono condensed"))))
-            `(powerline-active1                      ((,class (:background ,act2 :foreground ,base :family "Input Mono condensed"))))
-            `(powerline-active2                      ((,class (:background ,act2 :foreground ,base :family "Input Mono condensed"))))
-            `(powerline-inactive1                    ((,class (:background ,act2 :foreground ,base :family "Input Mono condensed"))))
-            `(powerline-inactive2                    ((,class (:background ,act2 :foreground ,base :family "Input Mono condensed"))))
-            `(mode-line-inactive                     ((,class (:background ,act2 :foreground ,base :family "Input Mono condensed"))))
-            `(spaceline-highlight-face               ((,class (:background ,act2 :foreground ,base :family "Input Mono condensed"))))
+            `(mode-line                              ((,class (:background ,act2 :foreground ,base ))))
+            `(mode-line-highlight                    ((,class (:background ,act2 :foreground ,base ))))
+            `(powerline-active1                      ((,class (:background ,act2 :foreground ,base ))))
+            `(powerline-active2                      ((,class (:background ,act2 :foreground ,base ))))
+            `(powerline-inactive1                    ((,class (:background ,act2 :foreground ,base ))))
+            `(powerline-inactive2                    ((,class (:background ,act2 :foreground ,base ))))
+            `(mode-line-inactive                     ((,class (:background ,act2 :foreground ,base ))))
+            `(spaceline-highlight-face               ((,class (:background ,act2 :foreground ,base ))))
 
 
 
