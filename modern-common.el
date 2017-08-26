@@ -543,6 +543,15 @@
             `(org-agenda-done                        ((,class (:foreground ,base-dim :height ,(if modern-theme-org-agenda-height 1.2 1.0)))))
             `(org-agenda-structure                   ((,class (:inherit bold :overline t :underline t :slant italic :family "input mono compressed" :foreground ,comp))))
 
+            `(org-habit-clear-face          ((,class (:background ,bg4 ))))
+            `(org-habit-clear-future-face   ((,class (:background ,bg3 ))))
+            `(org-habit-ready-face          ((,class (:background ,blue-d ))))
+            `(org-habit-ready-future-face   ((,class (:background ,blue ))))
+            `(org-habit-alert-face          ((,class (:background ,yellow-d ))))
+            `(org-habit-alert-future-face   ((,class (:background ,yellow ))))
+            `(org-habit-overdue-face        ((,class (:background ,red-d ))))
+            `(org-habit-overdue-future-face ((,class (:background ,red ))))
+
 
             `(org-block                              ((,class (:background ,cblk-bg :foreground ,cblk))))
             `(org-block-begin-line                   ((,class (:background ,cblk-ln-bg :foreground ,cblk-ln))))
