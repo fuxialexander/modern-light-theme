@@ -113,7 +113,7 @@
             (aqua-bg       (pcase variant ('dawn (if (true-color-p) "#4E3824" "#262626")) ('dark (if (true-color-p) "#2F3C4C" "#262626")) ('light (if (true-color-p) "#D5FCFF" "#ffffff"))))
             (green         (pcase variant ('dawn (if (true-color-p) "#82D88F" "#67b11d")) ('dark (if (true-color-p) "#CFD838" "#67b11d")) ('light (if (true-color-p) "#768F00" "#5faf00"))))
             (green-l       (pcase variant ('dawn (if (true-color-p) "#7FB087" "#67b11d")) ('dark (if (true-color-p) "#CFD874" "#67b11d")) ('light (if (true-color-p) "#7C8F2A" "#5faf00"))))
-            (green-d       (pcase variant ('dawn (if (true-color-p) "#96F591" "#67b11d")) ('dark (if (true-color-p) "#C7D800" "#67b11d")) ('light (if (true-color-p) "#768F00" "#5faf00"))))
+            (green-d       (pcase variant ('dawn (if (true-color-p) "#99DA63" "#67b11d")) ('dark (if (true-color-p) "#C7D800" "#67b11d")) ('light (if (true-color-p) "#768F00" "#5faf00"))))
             (green-bg      (pcase variant ('dawn (if (true-color-p) "#326046" "#262626")) ('dark (if (true-color-p) "#326046" "#262626")) ('light (if (true-color-p) "#F2FFB6" "#ffffff"))))
             (green-bg-s    (pcase variant ('dawn (if (true-color-p) "#224630" "#262626")) ('dark (if (true-color-p) "#224630" "#262626")) ('light (if (true-color-p) "#ECFF92" "#ffffff"))))
             (red           (pcase variant ('dawn (if (true-color-p) "#D87184" "#d70000")) ('dark (if (true-color-p) "#DC6661" "#d70000")) ('light (if (true-color-p) "#D44C44" "#d70008"))))
