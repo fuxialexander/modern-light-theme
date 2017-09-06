@@ -550,7 +550,7 @@
             `(org-habit-ready-future-face   ((,class (:background ,blue-bg ))))
             `(org-habit-alert-face          ((,class (:background ,yellow ))))
             `(org-habit-alert-future-face   ((,class (:background ,yellow-bg ))))
-            `(org-habit-overdue-face        ((,class (:background ,redd ))))
+            `(org-habit-overdue-face        ((,class (:background ,red ))))
             `(org-habit-overdue-future-face ((,class (:background ,red-bg ))))
 
 
