@@ -546,12 +546,12 @@
 
             `(org-habit-clear-face          ((,class (:background ,bg4 ))))
             `(org-habit-clear-future-face   ((,class (:background ,bg3 ))))
-            `(org-habit-ready-face          ((,class (:background ,blue-d ))))
-            `(org-habit-ready-future-face   ((,class (:background ,blue ))))
-            `(org-habit-alert-face          ((,class (:background ,yellow-d ))))
-            `(org-habit-alert-future-face   ((,class (:background ,yellow ))))
-            `(org-habit-overdue-face        ((,class (:background ,red-d ))))
-            `(org-habit-overdue-future-face ((,class (:background ,red ))))
+            `(org-habit-ready-face          ((,class (:background ,blue ))))
+            `(org-habit-ready-future-face   ((,class (:background ,blue-bg ))))
+            `(org-habit-alert-face          ((,class (:background ,yellow ))))
+            `(org-habit-alert-future-face   ((,class (:background ,yellow-bg ))))
+            `(org-habit-overdue-face        ((,class (:background ,red ))))
+            `(org-habit-overdue-future-face ((,class (:background ,red-bg ))))
 
 
             `(org-block                              ((,class (:background ,cblk-bg :foreground ,cblk))))
