@@ -428,17 +428,17 @@
 ;;;;; ivy
             `(ivy-current-match                      ((,class (:background ,highlight :weight bold))))
             `(ivy-minibuffer-match-face-1            ((,class (:weight bold))))
-            `(ivy-minibuffer-match-face-2            ((,class (:foreground ,yellow :background ,yellow-bg))))
-            `(ivy-minibuffer-match-face-3            ((,class (:foreground ,red :background ,red-bg))))
-            `(ivy-minibuffer-match-face-4            ((,class (:foreground ,magenta :background ,magenta-bg))))
+            `(ivy-minibuffer-match-face-2            ((,class (:foreground ,yellow :background ,yellow-bg :weight bold))))
+            `(ivy-minibuffer-match-face-3            ((,class (:foreground ,red :background ,red-bg :weight bold))))
+            `(ivy-minibuffer-match-face-4            ((,class (:foreground ,magenta :background ,magenta-bg :weight bold))))
             `(ivy-remote                             ((,class (:foreground ,cyan))))
 
 ;;;;; swiper
             `(swiper-line-face                       ((,class (:background ,highlight :inherit bold))))
             `(swiper-match-face-1                    ((,class (:inherit bold))))
-            `(swiper-match-face-2                    ((,class :foreground ,yellow :background ,yellow-bg)))
-            `(swiper-match-face-3                    ((,class (:foreground ,red :background ,red-bg))))
-            `(swiper-match-face-4                    ((,class (:foreground ,magenta :background ,magenta-bg))))
+            `(swiper-match-face-2                    ((,class :foreground ,yellow :background ,yellow-bg :weight bold)))
+            `(swiper-match-face-3                    ((,class (:foreground ,red :background ,red-bg :weight bold))))
+            `(swiper-match-face-4                    ((,class (:foreground ,magenta :background ,magenta-bg :weight bold))))
 
 ;;;;; latex
             `(font-latex-bold-face                   ((,class (:foreground ,comp))))
