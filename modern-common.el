@@ -130,10 +130,10 @@
             (magenta-l     (pcase variant ('dawn (if (true-color-p) "#837EB9" "#af00df")) ('dark (if (true-color-p) "#C3A1D2" "#af00df")) ('light (if (true-color-p) "#AA93B8" "#800080"))))
             (magenta-d     (pcase variant ('dawn (if (true-color-p) "#9C75ED" "#af00df")) ('dark (if (true-color-p) "#C3A1D2" "#af00df")) ('light (if (true-color-p) "#8E47B8" "#800080"))))
             (magenta-bg    (pcase variant ('dawn (if (true-color-p) "#2E2949" "#af00df")) ('dark (if (true-color-p) "#3A2E41" "#af00df")) ('light (if (true-color-p) "#EED3FF" "#800080"))))
-            (yellow        (pcase variant ('dawn (if (true-color-p) "#FFED6A" "#875f00")) ('dark (if (true-color-p) "#FFC65D" "#875f00")) ('light (if (true-color-p) "#FFBF19" "#875f00"))))
-            (yellow-l      (pcase variant ('dawn (if (true-color-p) "#EADC77" "#875f00")) ('dark (if (true-color-p) "#FFD281" "#875f00")) ('light (if (true-color-p) "#FFC062" "#875f00"))))
-            (yellow-d      (pcase variant ('dawn (if (true-color-p) "#FFDA53" "#875f00")) ('dark (if (true-color-p) "#FFB736" "#875f00")) ('light (if (true-color-p) "#FFD821" "#875f00"))))
-            (yellow-bg     (pcase variant ('dawn (if (true-color-p) "#575124" "#262626")) ('dark (if (true-color-p) "#4B3610" "#262626")) ('light (if (true-color-p) "#FFE399" "#ffffff"))))
+            (yellow        (pcase variant ('dawn (if (true-color-p) "#FFED6A" "#875f00")) ('dark (if (true-color-p) "#FFC65D" "#875f00")) ('light (if (true-color-p) "#D3B31B" "#875f00"))))
+            (yellow-l      (pcase variant ('dawn (if (true-color-p) "#EADC77" "#875f00")) ('dark (if (true-color-p) "#FFD281" "#875f00")) ('light (if (true-color-p) "#D19D50" "#875f00"))))
+            (yellow-d      (pcase variant ('dawn (if (true-color-p) "#FFDA53" "#875f00")) ('dark (if (true-color-p) "#FFB736" "#875f00")) ('light (if (true-color-p) "#DBA415" "#875f00"))))
+            (yellow-bg     (pcase variant ('dawn (if (true-color-p) "#575124" "#262626")) ('dark (if (true-color-p) "#4B3610" "#262626")) ('light (if (true-color-p) "#FFEBB7" "#ffffff"))))
             )
 
            custom-colors-override
