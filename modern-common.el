@@ -526,9 +526,9 @@
             `(markdown-header-face-6                 ((,class (:bold nil :foreground ,head2))))
 
 ;;;;; mode-line
-            `(mode-line                              ((,class (:foreground ,base :background ,bg1))))
+            `(mode-line                              ((,class (:foreground ,base :weight bold :background ,bg1))))
             `(mode-line-buffer-id                    ((,class (:inherit bold :foreground ,func))))
-            `(mode-line-inactive                     ((,class (:foreground ,base :background ,bg1))))
+            `(mode-line-inactive                     ((,class (:foreground ,base :weight bold :background ,bg1))))
 
 ;;;;; neotree
             `(neo-dir-link-face                      ((,class (:foreground ,keyword :inherit bold))))
