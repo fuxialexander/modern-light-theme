@@ -101,7 +101,7 @@
             (suc           (pcase variant ('dawn (if (true-color-p) "#82D88F" "#86dc2f")) ('dark (if (true-color-p) "#D9F267" "#86dc2f")) ('light (if (true-color-p) "#A9CC00" "#00af00"))))
             (ttip          (pcase variant ('dawn (if (true-color-p) "#DDD1C6" "#888888")) ('dark (if (true-color-p) "#77A2C6" "#888888")) ('light (if (true-color-p) "#357797" "#5f5f87"))))
             (ttip-sl       (pcase variant ('dawn (if (true-color-p) "#2C5672" "#333333")) ('dark (if (true-color-p) "#5E7998" "#333333")) ('light (if (true-color-p) "#73B3FF" "#afafff"))))
-            (ttip-bg       (pcase variant ('dawn (if (true-color-p) "#214054" "#444444")) ('dark (if (true-color-p) "#202933" "#444444")) ('light (if (true-color-p) "#D1E6FF" "#dfdfff"))))
+            (ttip-bg       (pcase variant ('dawn (if (true-color-p) "#214054" "#444444")) ('dark (if (true-color-p) "#202933" "#444444")) ('light (if (true-color-p) "#D7E9FF" "#dfdfff"))))
             (type          (pcase variant ('dawn (if (true-color-p) "#9C75ED" "#df005f")) ('dark (if (true-color-p) "#FF7974" "#df005f")) ('light (if (true-color-p) "#C73930" "#af005f"))))
             (var           (pcase variant ('dawn (if (true-color-p) "#FFED6A" "#8787d7")) ('dark (if (true-color-p) "#7EA5CC" "#8787d7")) ('light (if (true-color-p) "#9367AB" "#af5fd7"))))
             (war           (pcase variant ('dawn (if (true-color-p) "#DC9E66" "#dc752f")) ('dark (if (true-color-p) "#ED9E56" "#dc752f")) ('light (if (true-color-p) "#B66900" "#dc752f"))))
@@ -278,7 +278,7 @@
             `(secondary-selection                    ((,class (:background ,bg3))))
             `(shadow                                 ((,class (:foreground ,base-dim))))
             `(success                                ((,class (:foreground ,suc))))
-            `(tooltip                                ((,class (:background ,ttip-sl :foreground ,base :bold nil :italic nil :underline nil))))
+            `(tooltip                                ((,class (:background ,ttip-bg :foreground ,base :bold nil :italic nil :underline nil))))
             `(vertical-border                        ((,class (:foreground ,border))))
             `(warning                                ((,class (:foreground ,war))))
 
