@@ -231,7 +231,7 @@
             `(doom-modeline-urgent                   ((,class (:bold t :foreground ,red))))
             `(doom-modeline-bar                      ((,class (:background ,blue))))
             ;; `(doom-modeline-eldoc-bar             ((,class ())))
-            `(doom-modeline-inactive-bar             ((,class (:background ,blue-bg))))
+            `(doom-modeline-inactive-bar             ((,class (:background ,blue-l))))
             `(window-divider                         ((,class (:foreground ,act1))))
 
 
@@ -526,9 +526,9 @@
             `(markdown-header-face-6                 ((,class (:bold nil :foreground ,head2))))
 
 ;;;;; mode-line
-            `(mode-line                              ((,class (:foreground ,base :background ,act1))))
+            `(mode-line                              ((,class (:foreground ,base :background ,bg1))))
             `(mode-line-buffer-id                    ((,class (:inherit bold :foreground ,func))))
-            `(mode-line-inactive                     ((,class (:foreground ,base :background ,act2))))
+            `(mode-line-inactive                     ((,class (:foreground ,base :background ,bg1))))
 
 ;;;;; neotree
             `(neo-dir-link-face                      ((,class (:foreground ,keyword :inherit bold))))
@@ -622,14 +622,14 @@
 
 
 ;;;;; rainbow-delimiters
-            `(rainbow-delimiters-depth-1-face        ((,class :foreground ,keyword)))
-            `(rainbow-delimiters-depth-2-face        ((,class :foreground ,func)))
-            `(rainbow-delimiters-depth-3-face        ((,class :foreground ,str)))
-            `(rainbow-delimiters-depth-4-face        ((,class :foreground ,green)))
-            `(rainbow-delimiters-depth-5-face        ((,class :foreground ,yellow)))
-            `(rainbow-delimiters-depth-6-face        ((,class :foreground ,keyword)))
-            `(rainbow-delimiters-depth-7-face        ((,class :foreground ,func)))
-            `(rainbow-delimiters-depth-8-face        ((,class :foreground ,str)))
+            `(rainbow-delimiters-depth-1-face        ((,class :foreground ,blue-d)))
+            `(rainbow-delimiters-depth-2-face        ((,class :foreground ,red-d)))
+            `(rainbow-delimiters-depth-3-face        ((,class :foreground ,magenta-d)))
+            `(rainbow-delimiters-depth-4-face        ((,class :foreground ,green-d)))
+            `(rainbow-delimiters-depth-5-face        ((,class :foreground ,yellow-d)))
+            `(rainbow-delimiters-depth-6-face        ((,class :foreground ,blue-l)))
+            `(rainbow-delimiters-depth-7-face        ((,class :foreground ,red-l)))
+            `(rainbow-delimiters-depth-8-face        ((,class :foreground ,magenta-l)))
             `(rainbow-delimiters-mismatched-face     ((,class :foreground ,err :overline t)))
             `(rainbow-delimiters-unmatched-face      ((,class :foreground ,err :overline t)))
 
