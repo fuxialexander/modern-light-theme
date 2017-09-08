@@ -602,7 +602,7 @@
             `(org-todo                               ((,class (:foreground ,war :inherit bold :background ,yellow-bg))))
             `(org-verbatim                           ((,class (:foreground ,keyword))))
             `(org-verse                              ((,class (:inherit org-block :slant italic))))
-            `(org-warning                            ((,class (:foreground ,err))))
+            `(org-warning                            ((,class (:foreground ,red-d :weight bold :slant italic))))
 
 ;;;;; perspective
             `(persp-selected-face                    ((,class (:inherit bold :foreground ,func))))
