@@ -121,11 +121,11 @@
             (red-d         (pcase variant ('dawn (if (true-color-p) "#E46261" "#d70000")) ('dark (if (true-color-p) "#FF8982" "#d70000")) ('light (if (true-color-p) "#D43D34" "#d70008"))))
             (red-bg        (pcase variant ('dawn (if (true-color-p) "#422328" "#262626")) ('dark (if (true-color-p) "#3F1D1C" "#262626")) ('light (if (true-color-p) "#FFE5E4" "#ffffff"))))
             (red-bg-s      (pcase variant ('dawn (if (true-color-p) "#572926" "#262626")) ('dark (if (true-color-p) "#572926" "#262626")) ('light (if (true-color-p) "#FFD2D0" "#ffffff"))))
-            (blue          (pcase variant ('dawn (if (true-color-p) "#1E95CC" "#268bd2")) ('dark (if (true-color-p) "#1E95CC" "#268bd2")) ('light (if (true-color-p) "#195FB1" "#268bd2"))))
-            (cyan          (pcase variant ('dawn (if (true-color-p) "#519CCD" "#00ffff")) ('dark (if (true-color-p) "#8CB6E1" "#00ffff")) ('light (if (true-color-p) "#2D87B1" "#008080"))))
-            (blue-l        (pcase variant ('dawn (if (true-color-p) "#519CCD" "#00ffff")) ('dark (if (true-color-p) "#8CB6E1" "#00ffff")) ('light (if (true-color-p) "#2D87B1" "#008080"))))
-            (blue-d        (pcase variant ('dawn (if (true-color-p) "#648DFF" "#268bd2")) ('dark (if (true-color-p) "#0089CC" "#268bd2")) ('light (if (true-color-p) "#0051B1" "#268bd2"))))
-            (blue-bg       (pcase variant ('dawn (if (true-color-p) "#214054" "#262626")) ('dark (if (true-color-p) "#16313F" "#262626")) ('light (if (true-color-p) "#D7E9FF" "#d7d7ff"))))
+            (blue          (pcase variant ('dawn (if (true-color-p) "#1E95CC" "#268bd2")) ('dark (if (true-color-p) "#1E95CC" "#268bd2")) ('light (if (true-color-p) "#648DFF" "#268bd2"))))
+            (cyan          (pcase variant ('dawn (if (true-color-p) "#519CCD" "#00ffff")) ('dark (if (true-color-p) "#8CB6E1" "#00ffff")) ('light (if (true-color-p) "#88A8FF" "#008080"))))
+            (blue-l        (pcase variant ('dawn (if (true-color-p) "#519CCD" "#00ffff")) ('dark (if (true-color-p) "#8CB6E1" "#00ffff")) ('light (if (true-color-p) "#88A8FF" "#008080"))))
+            (blue-d        (pcase variant ('dawn (if (true-color-p) "#648DFF" "#268bd2")) ('dark (if (true-color-p) "#0089CC" "#268bd2")) ('light (if (true-color-p) "#3065FF" "#268bd2"))))
+            (blue-bg       (pcase variant ('dawn (if (true-color-p) "#214054" "#262626")) ('dark (if (true-color-p) "#16313F" "#262626")) ('light (if (true-color-p) "#BDD9FF" "#d7d7ff"))))
             (magenta       (pcase variant ('dawn (if (true-color-p) "#8778D8" "#af00df")) ('dark (if (true-color-p) "#C3A1D2" "#af00df")) ('light (if (true-color-p) "#9E6FB8" "#800080"))))
             (magenta-l     (pcase variant ('dawn (if (true-color-p) "#837EB9" "#af00df")) ('dark (if (true-color-p) "#C3A1D2" "#af00df")) ('light (if (true-color-p) "#AA93B8" "#800080"))))
             (magenta-d     (pcase variant ('dawn (if (true-color-p) "#9C75ED" "#af00df")) ('dark (if (true-color-p) "#C3A1D2" "#af00df")) ('light (if (true-color-p) "#8E47B8" "#800080"))))
@@ -221,7 +221,7 @@
             `(doom-modeline-project-root-dir         ((,class (:foreground ,aqua :bold t))))
             `(doom-modeline-buffer-file              ((,class (:foreground ,blue :bold t))))
             `(doom-modeline-buffer-modified          ((,class (:foreground ,red :bold t))))
-            `(doom-modeline-buffer-major-mode        ((,class (:foreground ,yellow :bold t))))
+            `(doom-modeline-buffer-major-mode        ((,class (:foreground ,blue :bold t))))
             `(doom-modeline-highlight                ((,class (:background ,blue :bold t))))
             `(doom-modeline-panel                    ((,class (:background ,blue :foreground ,bg1 :bold t))))
             ;; `(doom-modeline-info                  ((,class ())))
@@ -333,7 +333,7 @@
             `(dired-mark                             ((,class (:foreground ,comp :inherit bold))))
             `(dired-marked                           ((,class (:foreground ,magenta :inherit bold))))
             `(dired-perm-write                       ((,class (:foreground ,base :underline t))))
-            `(dired-symlink                          ((,class (:foreground ,cyan :background ,bg1 :inherit bold))))
+            `(dired-symlink                          ((,class (:foreground ,blue-l :background ,bg1 :inherit bold))))
             `(dired-warning                          ((,class (:foreground ,war))))
 
 ;;;;; ediff
@@ -366,7 +366,7 @@
             `(eshell-ls-missing                      ((,class (:inherit font-lock-warning-face))))
             `(eshell-ls-product                      ((,class (:inherit font-lock-doc-face))))
             `(eshell-ls-special                      ((,class (:foreground ,yellow :inherit bold))))
-            `(eshell-ls-symlink                      ((,class (:foreground ,cyan :inherit bold))))
+            `(eshell-ls-symlink                      ((,class (:foreground ,blue-l :inherit bold))))
             `(eshell-ls-unreadable                   ((,class (:foreground ,base))))
             `(eshell-prompt                          ((,class (:foreground ,keyword :inherit bold))))
 
@@ -428,15 +428,15 @@
 ;;;;; ivy
             `(ivy-current-match                      ((,class (:background ,highlight :weight bold))))
             `(ivy-minibuffer-match-face-1            ((,class (:weight bold))))
-            `(ivy-minibuffer-match-face-2            ((,class (:foreground ,yellow :background ,yellow-bg :weight bold))))
+            `(ivy-minibuffer-match-face-2            ((,class (:foreground ,blue-d :background ,blue-bg :weight bold))))
             `(ivy-minibuffer-match-face-3            ((,class (:foreground ,red :background ,red-bg :weight bold))))
             `(ivy-minibuffer-match-face-4            ((,class (:foreground ,magenta :background ,magenta-bg :weight bold))))
-            `(ivy-remote                             ((,class (:foreground ,cyan))))
+            `(ivy-remote                             ((,class (:foreground ,blue-l))))
 
 ;;;;; swiper
             `(swiper-line-face                       ((,class (:background ,highlight :inherit bold))))
             `(swiper-match-face-1                    ((,class (:inherit bold))))
-            `(swiper-match-face-2                    ((,class :foreground ,yellow :background ,yellow-bg :weight bold)))
+            `(swiper-match-face-2                    ((,class :foreground ,blue-d :background ,blue-bg :weight bold)))
             `(swiper-match-face-3                    ((,class (:foreground ,red :background ,red-bg :weight bold))))
             `(swiper-match-face-4                    ((,class (:foreground ,magenta :background ,magenta-bg :weight bold))))
 
@@ -485,7 +485,7 @@
             `(magit-log-head-label-local             ((,class (:background ,keyword :foreground ,bg1 :inherit bold))))
             `(magit-log-head-label-remote            ((,class (:background ,suc :foreground ,bg1 :inherit bold))))
             `(magit-log-head-label-tags              ((,class (:background ,magenta :foreground ,bg1 :inherit bold))))
-            `(magit-log-head-label-wip               ((,class (:background ,cyan :foreground ,bg1 :inherit bold))))
+            `(magit-log-head-label-wip               ((,class (:background ,blue-l :foreground ,bg1 :inherit bold))))
             `(magit-log-sha1                         ((,class (:foreground ,str))))
             `(magit-process-ng                       ((,class (:foreground ,war :inherit bold))))
             `(magit-process-ok                       ((,class (:foreground ,func :inherit bold))))
@@ -494,9 +494,9 @@
             `(magit-reflog-cherry-pick               ((,class (:foreground ,green))))
             `(magit-reflog-commit                    ((,class (:foreground ,green))))
             `(magit-reflog-merge                     ((,class (:foreground ,green))))
-            `(magit-reflog-other                     ((,class (:foreground ,cyan))))
+            `(magit-reflog-other                     ((,class (:foreground ,blue-l))))
             `(magit-reflog-rebase                    ((,class (:foreground ,magenta))))
-            `(magit-reflog-remote                    ((,class (:foreground ,cyan))))
+            `(magit-reflog-remote                    ((,class (:foreground ,blue-l))))
             `(magit-reflog-reset                     ((,class (:foreground ,red))))
             `(magit-section-heading                  ((,class (:foreground ,keyword :inherit bold))))
             `(magit-section-highlight                ((,class (:background ,bg2))))
@@ -558,7 +558,7 @@
             `(org-block-begin-line                   ((,class (:background ,cblk-ln-bg :foreground ,cblk-ln))))
             `(org-block-end-line                     ((,class (:background ,cblk-ln-bg :foreground ,cblk-ln))))
             `(org-clock-overlay                      ((,class (:foreground ,comp))))
-            `(org-code                               ((,class (:foreground ,cyan))))
+            `(org-code                               ((,class (:foreground ,blue-l))))
             `(org-column                             ((,class (:foreground ,red))))
             `(org-column-title                       ((,class (:background ,highlight))))
             `(org-date                               ((,class (:underline t :weight normal :height 0.85 :foreground ,var))))
@@ -676,7 +676,7 @@
             `(term                                   ((,class (:foreground ,base :background ,bg1))))
             `(term-color-black                       ((,class (:foreground ,bg4))))
             `(term-color-blue                        ((,class (:foreground ,keyword))))
-            `(term-color-cyan                        ((,class (:foreground ,cyan))))
+            `(term-color-cyan                        ((,class (:foreground ,blue-l))))
             `(term-color-green                       ((,class (:foreground ,green))))
             `(term-color-magenta                     ((,class (:foreground ,magenta))))
             `(term-color-red                         ((,class (:foreground ,red))))
@@ -746,7 +746,7 @@
 
            (custom-theme-set-variables
             theme-name
-            `(ansi-color-names-vector [,bg4 ,red ,green ,yellow ,blue ,magenta ,cyan ,base]))
+            `(ansi-color-names-vector [,bg4 ,red ,green ,yellow ,blue ,magenta ,blue-l ,base]))
 
            ))
 
