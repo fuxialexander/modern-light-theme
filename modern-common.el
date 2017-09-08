@@ -59,7 +59,7 @@
   (dyn-let ((class '((class color) (min-colors 89))) ;;                   ~~ Dark ~~                              ~~ Light ~~
             ;;                                                          GUI       TER                           GUI       TER
             ;; generic
-            (act1          (pcase variant ('dawn (if (true-color-p) "#18303F" "#121212")) ('dark (if (true-color-p) "#333332" "#121212")) ('light (if (true-color-p) "#EAEAEB" "#d7dfff"))))
+            (act1          (pcase variant ('dawn (if (true-color-p) "#18303F" "#121212")) ('dark (if (true-color-p) "#333332" "#121212")) ('light (if (true-color-p) "#FBFBFB" "#d7dfff"))))
             (act2          (pcase variant ('dawn (if (true-color-p) "#18303F" "#444444")) ('dark (if (true-color-p) "#333332" "#444444")) ('light (if (true-color-p) "#EAEAEB" "#afafd7"))))
             (base          (pcase variant ('dawn (if (true-color-p) "#C9BAAC" "#b2b2b2")) ('dark (if (true-color-p) "#ECEBE7" "#b2b2b2")) ('light (if (true-color-p) "#333332" "#5f5f87"))))
             (base-b        (pcase variant ('dawn (if (true-color-p) "#DDD1C6" "#b2b2b2")) ('dark (if (true-color-p) "#ECEBE7" "#b2b2b2")) ('light (if (true-color-p) "#333332" "#5f5f87"))))
@@ -226,7 +226,7 @@
             `(doom-modeline-panel                    ((,class (:background ,blue :foreground ,bg1 :bold t))))
             ;; `(doom-modeline-info                  ((,class ())))
             `(doom-modeline-perspname                ((,class (:foreground ,magenta :bold t))))
-            `(doom-modeline-workspace-number         ((,class (:foreground ,magenta ))))
+            `(doom-modeline-workspace-number         ((,class (:foreground ,magenta :weight normal))))
             `(doom-modeline-warning                  ((,class (:bold t :foreground ,yellow))))
             `(doom-modeline-urgent                   ((,class (:bold t :foreground ,red))))
             `(doom-modeline-bar                      ((,class (:background ,blue))))
@@ -526,9 +526,16 @@
             `(markdown-header-face-6                 ((,class (:bold nil :foreground ,head2))))
 
 ;;;;; mode-line
-            `(mode-line                              ((,class (:foreground ,base :weight bold :background ,bg1))))
+            `(mode-line                              ((,class (:foreground ,base :weight bold :background ,act1))))
             `(mode-line-buffer-id                    ((,class (:inherit bold :foreground ,func))))
-            `(mode-line-inactive                     ((,class (:foreground ,base :weight bold :background ,bg1))))
+            `(mode-line-inactive                     ((,class (:foreground ,base :weight bold :background ,act1))))
+            `(mode-line-highlight                    ((,class (:background ,act1 :foreground ,base :weight bold))))
+            ;; `(powerline-active1                      ((,class (:background ,act1 :foreground ,base ))))
+            ;; `(powerline-active2                      ((,class (:background ,act1 :foreground ,base ))))
+            ;; `(powerline-inactive1                    ((,class (:background ,act1 :foreground ,base ))))
+            ;; `(powerline-inactive2                    ((,class (:background ,act1 :foreground ,base ))))
+            ;; `(spaceline-highlight-face               ((,class (:background ,act1 :foreground ,base ))))
+
 
 ;;;;; neotree
             `(neo-dir-link-face                      ((,class (:foreground ,keyword :inherit bold))))
@@ -610,15 +617,6 @@
             `(popup-tip-face                         ((,class (:background ,ttip-sl :foreground ,base :bold nil :italic nil :underline nil))))
 
 ;;;;; powerline
-            `(mode-line                              ((,class (:background ,act2 :foreground ,base ))))
-            `(mode-line-highlight                    ((,class (:background ,act2 :foreground ,base ))))
-            `(powerline-active1                      ((,class (:background ,act2 :foreground ,base ))))
-            `(powerline-active2                      ((,class (:background ,act2 :foreground ,base ))))
-            `(powerline-inactive1                    ((,class (:background ,act2 :foreground ,base ))))
-            `(powerline-inactive2                    ((,class (:background ,act2 :foreground ,base ))))
-            `(mode-line-inactive                     ((,class (:background ,act2 :foreground ,base ))))
-            `(spaceline-highlight-face               ((,class (:background ,act2 :foreground ,base ))))
-
 
 
 ;;;;; rainbow-delimiters
