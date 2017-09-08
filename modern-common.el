@@ -529,7 +529,7 @@
 ;;;;; mode-line
             `(mode-line                              ((,class (:foreground ,base :weight bold :background ,act1))))
             `(mode-line-buffer-id                    ((,class (:inherit bold :foreground ,func))))
-            `(mode-line-inactive                     ((,class (:foreground ,base :weight bold :background ,act1))))
+            `(mode-line-inactive                     ((,class (:foreground ,base-dim :weight bold :background ,act1))))
             `(mode-line-highlight                    ((,class (:background ,act1 :foreground ,base :weight bold))))
             ;; `(powerline-active1                      ((,class (:background ,act1 :foreground ,base ))))
             ;; `(powerline-active2                      ((,class (:background ,act1 :foreground ,base ))))
