@@ -619,17 +619,17 @@
 
 ;;;;; EIN
 
-            `(ein:cell-input-prompt         ((,class :foreground ,blue :background blue-bg :weight bold)))
-            `(ein:notification-tab-selected ((,class :foreground ,blue-d :background blue-bg :weight bold)))
+            `(ein:cell-input-prompt         ((,class :foreground ,blue :background ,blue-bg :weight bold)))
+            `(ein:notification-tab-selected ((,class :foreground ,blue-d :background ,blue-bg :weight bold)))
             `(ein:cell-input-area           ((,class :background ,cblk-bg)))
-            `(ein:notification-tab-normal   ((,class :foreground ,bg1 :background blug-bg :weight bold)))
+            `(ein:notification-tab-normal   ((,class :foreground ,bg1 :background ,blue-bg :weight bold)))
             `(ein:cell-heading-1            ((,class :inherit org-level-1 )))
             `(ein:cell-heading-2            ((,class :inherit org-level-2 )))
             `(ein:cell-heading-3            ((,class :inherit org-level-3 )))
             `(ein:cell-heading-4            ((,class :inherit org-level-4 )))
             `(ein:cell-heading-5            ((,class :inherit org-level-5 )))
             `(ein:cell-heading-6            ((,class :inherit org-level-6 )))
-            `(ein:cell-output-prompt        ((,class :foreground ,red :background red-bg :weight bold)))
+            `(ein:cell-output-prompt        ((,class :foreground ,red :background ,red-bg :weight bold)))
             `(ein:pos-tip-face              ((,class :inherit popup-tip-face)))
             `(ein:cell-output-stderr        ((,class :background ,red-bg )))
 
