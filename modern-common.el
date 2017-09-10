@@ -237,10 +237,10 @@
 
 
 ;;;;; git-gutter+
-            `(git-gutter+-added                      ((,class (:foreground ,green :weight bold))))
-            `(git-gutter+-deleted                    ((,class (:foreground ,red :weight bold))))
-            `(git-gutter+-modified                   ((,class (:foreground ,yellow :weight bold))))
-            `(git-gutter+-separator                  ((,class (:foreground ,blue :weight bold))))
+            `(git-gutter+-added                      ((,class (:foreground ,green-d :weight bold))))
+            `(git-gutter+-deleted                    ((,class (:foreground ,red-d :weight bold))))
+            `(git-gutter+-modified                   ((,class (:foreground ,yellow-d :weight bold))))
+            `(git-gutter+-separator                  ((,class (:foreground ,blue-d :weight bold))))
 
 
 ;;;;; basics
