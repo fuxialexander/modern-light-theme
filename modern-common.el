@@ -569,7 +569,7 @@
             `(org-code                               ((,class (:foreground ,blue-l))))
             `(org-column                             ((,class (:foreground ,red))))
             `(org-column-title                       ((,class (:background ,highlight))))
-            `(org-date                               ((,class (:underline t :weight normal :height 0.85 :foreground ,var))))
+            `(org-date                               ((,class (:underline t :weight normal :foreground ,var))))
             `(org-date-selected                      ((,class (:background ,func :foreground ,bg1))))
             `(org-document-info-keyword              ((,class (:foreground ,meta))))
             `(org-document-title                     ((,class (:foreground ,func :inherit bold :height ,(if modern-theme-org-height 1.4 1.0) :underline t))))
