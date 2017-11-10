@@ -436,7 +436,7 @@
 
 ;;;;; swiper
             `(swiper-line-face                       ((,class (:background ,highlight :inherit bold))))
-            `(swiper-match-face-1                    ((,class (:inherit ivy-minibuffer-match-face-1))))
+            `(swiper-match-face-1                    ((,class (:weight bold :height 1.0))))
             `(swiper-match-face-2                    ((,class :foreground ,blue-d :background ,blue-bg :weight bold)))
             `(swiper-match-face-3                    ((,class (:foreground ,red :background ,red-bg :weight bold))))
             `(swiper-match-face-4                    ((,class (:foreground ,magenta :background ,magenta-bg :weight bold))))
