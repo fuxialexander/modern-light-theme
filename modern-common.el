@@ -31,7 +31,7 @@
   :type 'boolean
   :group 'modern-theme)
 
-(defcustom modern-theme-org-height nil
+(defcustom modern-theme-org-height t
   "Use varying text heights for org headings."
   :type 'boolean
   :group 'modern-theme)
@@ -142,7 +142,7 @@
             theme-name
 
             `(bold                                   ((,class (:foreground ,base-b :bold t))))
-            `(variable-pitch                         ((,class (:height 1.4 :family "Source sans pro"))))
+            `(variable-pitch                         ((,class (:height 1.4 :family "charter"))))
 
 ;;;;; Notmuch
 
@@ -428,10 +428,10 @@
 
 ;;;;; ivy
             `(ivy-current-match                      ((,class (:background ,highlight :weight bold))))
-            `(ivy-minibuffer-match-face-1            ((,class (:weight bold))))
-            `(ivy-minibuffer-match-face-2            ((,class (:foreground ,blue-d :background ,blue-bg :weight bold))))
-            `(ivy-minibuffer-match-face-3            ((,class (:foreground ,red :background ,red-bg :weight bold))))
-            `(ivy-minibuffer-match-face-4            ((,class (:foreground ,magenta :background ,magenta-bg :weight bold))))
+            `(ivy-minibuffer-match-face-1            ((,class (:weight bold :height 1.0))))
+            `(ivy-minibuffer-match-face-2            ((,class (:foreground ,blue-d :height 1.0 :background ,blue-bg :weight bold))))
+            `(ivy-minibuffer-match-face-3            ((,class (:foreground ,red  :height 1.0 :background ,red-bg :weight bold))))
+            `(ivy-minibuffer-match-face-4            ((,class (:foreground ,magenta  :height 1.0 :background ,magenta-bg :weight bold))))
             `(ivy-remote                             ((,class (:foreground ,blue-l))))
 
 ;;;;; swiper
@@ -578,10 +578,10 @@
             `(org-footnote                           ((,class (:underline t :foreground ,base))))
             `(org-hide                               ((,class (:foreground ,base))))
             `(org-kbd                                ((,class (:inherit region :foreground ,base :box (:line-width 1 :style released-button)))))
-            `(org-level-1                            ((,class (:foreground ,blue-d  :weight ultra-bold :height ,(if modern-theme-org-height 1.3 1.0) :slant italic :background ,(when modern-theme-org-highlight blue-bg)))))
-            `(org-level-2                            ((,class (:foreground ,magenta-d :weight extra-bold :height ,(if modern-theme-org-height 1.2 1.0) :slant italic :background ,(when modern-theme-org-highlight magenta-bg)))))
-            `(org-level-3                            ((,class (:foreground ,red-d     :weight bold :height ,(if modern-theme-org-height 1.1 1.0) :slant italic :background ,(when modern-theme-org-highlight red-bg)))))
-            `(org-level-4                            ((,class (:foreground ,green-d   :weight bold :slant italic :background ,(when modern-theme-org-highlight green-bg)))))
+            `(org-level-1                            ((,class (:family "charter" :foreground ,blue-d  :weight ultra-bold :height ,(if modern-theme-org-height 1.3 1.0) :slant italic :background ,(when modern-theme-org-highlight blue-bg)))))
+            `(org-level-2                            ((,class (:family "charter" :foreground ,magenta-d :weight extra-bold :height ,(if modern-theme-org-height 1.2 1.0) :slant italic :background ,(when modern-theme-org-highlight magenta-bg)))))
+            `(org-level-3                            ((,class (:family "charter" :foreground ,red-d     :weight bold :height ,(if modern-theme-org-height 1.1 1.0) :slant italic :background ,(when modern-theme-org-highlight red-bg)))))
+            `(org-level-4                            ((,class (:family "charter" :foreground ,green-d   :weight bold :slant italic :background ,(when modern-theme-org-highlight green-bg)))))
             `(org-level-5                            ((,class (:foreground ,blue-l  :weight bold :slant italic))))
             `(org-level-6                            ((,class (:foreground ,magenta-l :weight bold :slant italic))))
             `(org-level-7                            ((,class (:foreground ,red-l     :weight bold :slant italic))))
