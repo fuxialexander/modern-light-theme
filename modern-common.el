@@ -146,45 +146,45 @@
 
 ;;;;; Notmuch
 
-            `(notmuch-crypto-decryption           ((,class (:background ,bg1     :foreground ,blue-l         ))))
-            `(notmuch-crypto-part-header          ((,class (:background ,bg1     :foreground ,yellow-l       ))))
-            `(notmuch-crypto-signature-bad        ((,class (:background ,bg1     :foreground ,red-l          ))))
-            `(notmuch-crypto-signature-good       ((,class (:background ,bg1     :foreground ,base           ))))
-            `(notmuch-crypto-signature-good-key   ((,class (:background ,bg1     :foreground ,aqua-l         ))))
-            `(notmuch-crypto-signature-unknown    ((,class (:background ,bg1     :foreground ,yellow         ))))
+            `(notmuch-crypto-decryption              ((,class (:background ,bg1     :foreground ,blue-l         ))))
+            `(notmuch-crypto-part-header             ((,class (:background ,bg1     :foreground ,yellow-l       ))))
+            `(notmuch-crypto-signature-bad           ((,class (:background ,bg1     :foreground ,red-l          ))))
+            `(notmuch-crypto-signature-good          ((,class (:background ,bg1     :foreground ,base           ))))
+            `(notmuch-crypto-signature-good-key      ((,class (:background ,bg1     :foreground ,aqua-l         ))))
+            `(notmuch-crypto-signature-unknown       ((,class (:background ,bg1     :foreground ,yellow         ))))
 
-            `(notmuch-hello-logo-background       ((,class (:background ,bg1     :foreground ,bg1            ))))
-            `(notmuch-message-summary-face        ((,class (:background ,bg4     :foreground ,base           ))))
+            `(notmuch-hello-logo-background          ((,class (:background ,bg1     :foreground ,bg1            ))))
+            `(notmuch-message-summary-face           ((,class (:background ,bg4     :foreground ,base           ))))
 
-            `(notmuch-search-count                ((,class (:background ,bg1     :foreground ,yellow-bg      ))))
-            `(notmuch-search-date                 ((,class (:background ,bg1     :foreground ,aqua           ))))
-            `(notmuch-search-flagged-face         ((,class (:background ,red-bg                              ))))
-            `(notmuch-search-matching-authors     ((,class (:background ,bg1     :foreground ,blue-d         ))))
-            `(notmuch-search-non-matching-authors ((,class (:background ,bg1     :foreground ,blue           ))))
-            `(notmuch-search-subject              ((,class (:background ,bg1     :foreground ,base           ))))
-            `(notmuch-search-unread-face          ((,class (:background ,bg1     :foreground ,base-b :bold t ))))
+            `(notmuch-search-count                   ((,class (:background ,bg1     :foreground ,yellow-bg      ))))
+            `(notmuch-search-date                    ((,class (:background ,bg1     :foreground ,aqua           ))))
+            `(notmuch-search-flagged-face            ((,class (:background ,red-bg                              ))))
+            `(notmuch-search-matching-authors        ((,class (:background ,bg1     :foreground ,blue-d         ))))
+            `(notmuch-search-non-matching-authors    ((,class (:background ,bg1     :foreground ,blue           ))))
+            `(notmuch-search-subject                 ((,class (:background ,bg1     :foreground ,base           ))))
+            `(notmuch-search-unread-face             ((,class (:background ,bg1     :foreground ,base-b :bold t ))))
 
-            `(notmuch-tag-added                   ((,class (:background ,bg1     :foreground ,green-d        ))))
-            `(notmuch-tag-deleted                 ((,class (:background ,bg1     :foreground ,red-d          ))))
-            `(notmuch-tag-face                    ((,class (:background ,bg1     :foreground ,blue-d         ))))
-            `(notmuch-tag-flagged                 ((,class (:background ,red-bg  :foreground ,blue-d         ))))
-            `(notmuch-tag-unread                  ((,class (:background ,bg1     :foreground ,blue-d         ))))
+            `(notmuch-tag-added                      ((,class (:background ,bg1     :foreground ,green-d        ))))
+            `(notmuch-tag-deleted                    ((,class (:background ,bg1     :foreground ,red-d          ))))
+            `(notmuch-tag-face                       ((,class (:background ,bg1     :foreground ,blue-d         ))))
+            `(notmuch-tag-flagged                    ((,class (:background ,red-bg  :foreground ,blue-d         ))))
+            `(notmuch-tag-unread                     ((,class (:background ,bg1     :foreground ,blue-d         ))))
 
-            `(notmuch-tree-match-author-face      ((,class (:background ,bg1     :foreground ,blue-d         ))))
-            `(notmuch-tree-match-date-face        ((,class (:background ,bg1     :foreground ,aqua-d         ))))
-            `(notmuch-tree-match-face             ((,class (:background ,bg1     :foreground ,base           ))))
-            `(notmuch-tree-match-subject-face     ((,class (:background ,bg1     :foreground ,base           ))))
-            `(notmuch-tree-match-tag-face         ((,class (:background ,bg1     :foreground ,blue-d         ))))
-            `(notmuch-tree-match-tree-face        ((,class (:background ,bg1     :foreground ,yellow-d       ))))
-            `(notmuch-tree-no-match-author-face   ((,class (:background ,bg1     :foreground ,blue-l         ))))
-            `(notmuch-tree-no-match-date-face     ((,class (:background ,bg1     :foreground ,aqua-l         ))))
-            `(notmuch-tree-no-match-face          ((,class (:background ,bg1     :foreground ,base-dim       ))))
-            `(notmuch-tree-no-match-subject-face  ((,class (:background ,bg1     :foreground ,base-dim       ))))
-            `(notmuch-tree-no-match-tag-face      ((,class (:background ,bg1     :foreground ,blue-l         ))))
-            `(notmuch-tree-no-match-tree-face     ((,class (:background ,bg1     :foreground ,yellow-l       ))))
+            `(notmuch-tree-match-author-face         ((,class (:background ,bg1     :foreground ,blue-d         ))))
+            `(notmuch-tree-match-date-face           ((,class (:background ,bg1     :foreground ,aqua-d         ))))
+            `(notmuch-tree-match-face                ((,class (:background ,bg1     :foreground ,base           ))))
+            `(notmuch-tree-match-subject-face        ((,class (:background ,bg1     :foreground ,base           ))))
+            `(notmuch-tree-match-tag-face            ((,class (:background ,bg1     :foreground ,blue-d         ))))
+            `(notmuch-tree-match-tree-face           ((,class (:background ,bg1     :foreground ,yellow-d       ))))
+            `(notmuch-tree-no-match-author-face      ((,class (:background ,bg1     :foreground ,blue-l         ))))
+            `(notmuch-tree-no-match-date-face        ((,class (:background ,bg1     :foreground ,aqua-l         ))))
+            `(notmuch-tree-no-match-face             ((,class (:background ,bg1     :foreground ,base-dim       ))))
+            `(notmuch-tree-no-match-subject-face     ((,class (:background ,bg1     :foreground ,base-dim       ))))
+            `(notmuch-tree-no-match-tag-face         ((,class (:background ,bg1     :foreground ,blue-l         ))))
+            `(notmuch-tree-no-match-tree-face        ((,class (:background ,bg1     :foreground ,yellow-l       ))))
 
-            `(notmuch-wash-cited-text             ((,class (:background ,bg1     :foreground ,blue           ))))
-            `(notmuch-wash-toggle-button          ((,class (:background ,blue-bg :foreground ,blue           ))))
+            `(notmuch-wash-cited-text                ((,class (:background ,bg1     :foreground ,blue           ))))
+            `(notmuch-wash-toggle-button             ((,class (:background ,blue-bg :foreground ,blue           ))))
 
 
 
@@ -381,12 +381,10 @@
             `(flycheck-fringe-error                  ((,class (:foreground ,err :inherit bold))))
             `(flycheck-fringe-info                   ((,class (:foreground ,keyword :inherit bold))))
             `(flycheck-fringe-warning                ((,class (:foreground ,war :inherit bold))))
-            `(flycheck-info
-              ((,(append '((supports :underline (:style line))) class)
-                (:underline (:style line :color ,keyword)))
-               (,class (:foreground ,base :background ,keyword :inherit bold :underline t))))
-            `(flycheck-warning
-              ((,(append '((supports :underline (:style line))) class)
+            `(flycheck-info                          ((,(append '((supports :underline (:style line))) class)
+                              (:underline (:style line :color ,keyword)))
+                             (,class (:foreground ,base :background ,keyword :inherit bold :underline t))))
+            `(flycheck-warning                       ((,(append '((supports :underline (:style line))) class)
                 (:underline (:style line :color ,war)))
                (,class (:foreground ,base :background ,war :inherit bold :underline t))))
             `(flyspell-incorrect                     ((,class (:foreground ,err :inherit flycheck-error))))
@@ -436,10 +434,10 @@
 
 ;;;;; swiper
             `(swiper-line-face                       ((,class (:background ,highlight :inherit bold))))
-            `(swiper-match-face-1                    ((,class (:inherit ivy-minibuffer-match-face-1))))
-            `(swiper-match-face-2                    ((,class :foreground ,blue-d :background ,blue-bg :weight bold)))
-            `(swiper-match-face-3                    ((,class (:foreground ,red :background ,red-bg :weight bold))))
-            `(swiper-match-face-4                    ((,class (:foreground ,magenta :background ,magenta-bg :weight bold))))
+            `(swiper-match-face-1                    ((,class (:weight bold :height 1.0))))
+            `(swiper-match-face-2                    ((,class :foreground ,blue-d :background ,blue-bg  :height 1.0 :weight bold)))
+            `(swiper-match-face-3                    ((,class (:foreground ,red :background ,red-bg  :height 1.0 :weight bold))))
+            `(swiper-match-face-4                    ((,class (:foreground ,magenta :background ,magenta-bg  :height 1.0 :weight bold))))
 
 ;;;;; latex
             `(font-latex-bold-face                   ((,class (:foreground ,comp))))
@@ -531,11 +529,11 @@
             `(mode-line-buffer-id                    ((,class (:inherit bold :foreground ,func))))
             `(mode-line-inactive                     ((,class (:foreground ,base-dim :weight bold :background ,act1))))
             `(mode-line-highlight                    ((,class (:background ,act1 :foreground ,base :weight bold))))
-            ;; `(powerline-active1                      ((,class (:background ,act1 :foreground ,base ))))
-            ;; `(powerline-active2                      ((,class (:background ,act1 :foreground ,base ))))
-            ;; `(powerline-inactive1                    ((,class (:background ,act1 :foreground ,base ))))
-            ;; `(powerline-inactive2                    ((,class (:background ,act1 :foreground ,base ))))
-            ;; `(spaceline-highlight-face               ((,class (:background ,act1 :foreground ,base ))))
+            ;; `(powerline-active1                   ((,class (:background ,act1 :foreground ,base ))))
+            ;; `(powerline-active2                   ((,class (:background ,act1 :foreground ,base ))))
+            ;; `(powerline-inactive1                 ((,class (:background ,act1 :foreground ,base ))))
+            ;; `(powerline-inactive2                 ((,class (:background ,act1 :foreground ,base ))))
+            ;; `(spaceline-highlight-face            ((,class (:background ,act1 :foreground ,base ))))
 
 
 ;;;;; neotree
@@ -545,21 +543,21 @@
             `(neo-root-dir-face                      ((,class (:foreground ,func :inherit bold))))
 
 ;;;;; org
-            `(org-agenda-clocking           ((,class (:family "operator mono" :background ,highlight :foreground ,comp))))
-            `(org-agenda-date               ((,class (:family "operator mono" :foreground ,var :height ,(if modern-theme-org-agenda-height 1.1 1.0)))))
-            `(org-agenda-date-today         ((,class (:family "operator mono" :foreground ,keyword :inherit bold :height ,(if modern-theme-org-agenda-height 1.3 1.0)))))
-            `(org-agenda-date-weekend       ((,class (:family "operator mono" :foreground ,var))))
-            `(org-agenda-done               ((,class (:family "operator mono" :foreground ,base-dim :height ,(if modern-theme-org-agenda-height 1.2 1.0)))))
-            `(org-agenda-structure          ((,class (:family "operator mono" :inherit bold :overline t :underline t :slant italic :foreground ,comp))))
+            `(org-agenda-clocking                    ((,class (:family "operator mono" :background ,highlight :foreground ,comp))))
+            `(org-agenda-date                        ((,class (:family "operator mono" :foreground ,var :height ,(if modern-theme-org-agenda-height 1.1 1.0)))))
+            `(org-agenda-date-today                  ((,class (:family "operator mono" :foreground ,keyword :inherit bold :height ,(if modern-theme-org-agenda-height 1.3 1.0)))))
+            `(org-agenda-date-weekend                ((,class (:family "operator mono" :foreground ,var))))
+            `(org-agenda-done                        ((,class (:family "operator mono" :foreground ,base-dim :height ,(if modern-theme-org-agenda-height 1.2 1.0)))))
+            `(org-agenda-structure                   ((,class (:family "operator mono" :inherit bold :overline t :underline t :slant italic :foreground ,comp))))
 
-            `(org-habit-clear-face          ((,class (:family "operator mono" :background ,bg4 ))))
-            `(org-habit-clear-future-face   ((,class (:family "operator mono" :background ,bg3 ))))
-            `(org-habit-ready-face          ((,class (:family "operator mono" :background ,blue ))))
-            `(org-habit-ready-future-face   ((,class (:family "operator mono" :background ,blue-bg ))))
-            `(org-habit-alert-face          ((,class (:family "operator mono" :background ,yellow ))))
-            `(org-habit-alert-future-face   ((,class (:family "operator mono" :background ,yellow-bg ))))
-            `(org-habit-overdue-face        ((,class (:family "operator mono" :background ,red ))))
-            `(org-habit-overdue-future-face ((,class (:family "operator mono" :background ,red-bg ))))
+            `(org-habit-clear-face                   ((,class (:family "operator mono" :background ,bg4 ))))
+            `(org-habit-clear-future-face            ((,class (:family "operator mono" :background ,bg3 ))))
+            `(org-habit-ready-face                   ((,class (:family "operator mono" :background ,blue ))))
+            `(org-habit-ready-future-face            ((,class (:family "operator mono" :background ,blue-bg ))))
+            `(org-habit-alert-face                   ((,class (:family "operator mono" :background ,yellow ))))
+            `(org-habit-alert-future-face            ((,class (:family "operator mono" :background ,yellow-bg ))))
+            `(org-habit-overdue-face                 ((,class (:family "operator mono" :background ,red ))))
+            `(org-habit-overdue-future-face          ((,class (:family "operator mono" :background ,red-bg ))))
 
             `(org-block                              ((,class (:family "operator mono" :background ,cblk-bg :foreground ,cblk))))
             `(org-block-begin-line                   ((,class (:family "operator mono" :background ,cblk-ln-bg :foreground ,cblk-ln))))
@@ -603,6 +601,13 @@
             `(org-verse                              ((,class (:inherit org-block :slant italic))))
             `(org-warning                            ((,class (:foreground ,red-d :weight bold :slant italic))))
 
+            `(org-todo-keyword-todo                ((,class (:foreground ,blue-d :background ,blue-bg :weight bold  ))))
+            `(org-todo-keyword-habt                ((,class (:foreground ,yellow-d :background ,yellow-bg :weight bold  ))))
+            `(org-todo-keyword-done                ((,class (:foreground ,green-d :background ,green-bg :weight bold  ))))
+            `(org-todo-keyword-wait                ((,class (:foreground ,red-d :background ,red-bg :weight bold  ))))
+            `(org-todo-keyword-kill                ((,class (:foreground ,magenta-d :background ,magenta-bg :weight bold  ))))
+            `(org-todo-keyword-outd                ((,class (:foreground ,cblk :background ,cblk-bg :weight bold  ))))
+
 ;;;;; perspective
             `(persp-selected-face                    ((,class (:inherit bold :foreground ,func))))
 
@@ -618,19 +623,19 @@
 
 ;;;;; EIN
 
-            `(ein:cell-input-prompt         ((,class :foreground ,blue :background ,blue-bg :weight bold)))
-            `(ein:notification-tab-selected ((,class :foreground ,blue-d :background ,blue-bg :weight bold)))
-            `(ein:cell-input-area           ((,class :background ,cblk-bg)))
-            `(ein:notification-tab-normal   ((,class :foreground ,bg1 :background ,blue-bg :weight bold)))
-            `(ein:cell-heading-1            ((,class :inherit org-level-1 )))
-            `(ein:cell-heading-2            ((,class :inherit org-level-2 )))
-            `(ein:cell-heading-3            ((,class :inherit org-level-3 )))
-            `(ein:cell-heading-4            ((,class :inherit org-level-4 )))
-            `(ein:cell-heading-5            ((,class :inherit org-level-5 )))
-            `(ein:cell-heading-6            ((,class :inherit org-level-6 )))
-            `(ein:cell-output-prompt        ((,class :foreground ,red :background ,red-bg :weight bold)))
-            `(ein:pos-tip-face              ((,class :inherit popup-tip-face)))
-            `(ein:cell-output-stderr        ((,class :background ,red-bg )))
+            `(ein:cell-input-prompt                  ((,class :foreground ,blue :background ,blue-bg :weight bold)))
+            `(ein:notification-tab-selected          ((,class :foreground ,blue-d :background ,blue-bg :weight bold)))
+            `(ein:cell-input-area                    ((,class :background ,cblk-bg)))
+            `(ein:notification-tab-normal            ((,class :foreground ,bg1 :background ,blue-bg :weight bold)))
+            `(ein:cell-heading-1                     ((,class :inherit org-level-1 )))
+            `(ein:cell-heading-2                     ((,class :inherit org-level-2 )))
+            `(ein:cell-heading-3                     ((,class :inherit org-level-3 )))
+            `(ein:cell-heading-4                     ((,class :inherit org-level-4 )))
+            `(ein:cell-heading-5                     ((,class :inherit org-level-5 )))
+            `(ein:cell-heading-6                     ((,class :inherit org-level-6 )))
+            `(ein:cell-output-prompt                 ((,class :foreground ,red :background ,red-bg :weight bold)))
+            `(ein:pos-tip-face                       ((,class :inherit popup-tip-face)))
+            `(ein:cell-output-stderr                 ((,class :background ,red-bg )))
 
 
 ;;;;; rainbow-delimiters
@@ -750,11 +755,11 @@
             `(js3-jsdoc-tag-face                     ((,class ( :foreground ,keyword))))
             `(js3-warning-face                       ((,class ( :underline ,keyword))))
             `(slime-repl-inputed-output-face         ((,class ( :foreground ,comp))))
-            `(trailing-whitespace                    ((,class   :foreground nil   :background ,err)))
-            `(undo-tree-visualizer-current-face      ((,class   :foreground ,keyword)))
-            `(undo-tree-visualizer-default-face      ((,class   :foreground ,base)))
-            `(undo-tree-visualizer-register-face     ((,class   :foreground ,comp)))
-            `(undo-tree-visualizer-unmodified-face   ((,class   :foreground ,var))))
+            `(trailing-whitespace                    ((,class (  :foreground nil   :background ,err))))
+            `(undo-tree-visualizer-current-face      ((,class (  :foreground ,keyword))))
+            `(undo-tree-visualizer-default-face      ((,class (  :foreground ,base))))
+            `(undo-tree-visualizer-register-face     ((,class (  :foreground ,comp))))
+            `(undo-tree-visualizer-unmodified-face   ((,class (  :foreground ,var)))))
 
            (custom-theme-set-variables
             theme-name
