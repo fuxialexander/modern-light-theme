@@ -566,7 +566,7 @@
             `(org-code                               ((,class (:family "operator mono" :foreground ,blue-l :height 1.0))))
             `(org-column                             ((,class (:family "operator mono" :foreground ,red))))
             `(org-column-title                       ((,class (:family "operator mono" :background ,highlight))))
-            `(org-date                               ((,class (:family "operator mono" :underline t :weight normal :foreground ,var))))
+            `(org-date                               ((,class (:family "input mono compressed" :underline nil :weight bold :foreground ,yellow-d :background ,yellow-bg))))
             `(org-date-selected                      ((,class (:family "operator mono" :background ,func :foreground ,bg1))))
             `(org-document-info-keyword              ((,class (:family "operator mono" :foreground ,meta))))
             `(org-document-title                     ((,class (:family "futura" :foreground ,func :inherit bold :height ,(if modern-theme-org-height 1.4 1.0) :underline t))))
