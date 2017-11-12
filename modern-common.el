@@ -502,14 +502,23 @@
             `(magit-section-title                    ((,class (:background ,bg1 :foreground ,keyword :inherit bold))))
 
 ;;;;; Outline
-            `(outline-1                              ((,class (:foreground ,blue-d  :weight ultra-bold :italic t :underline t))))
-            `(outline-2                              ((,class (:foreground ,magenta-d :weight extra-bold :italic t :underline t))))
-            `(outline-3                              ((,class (:foreground ,red-d     :weight bold :italic t :underline t))))
-            `(outline-4                              ((,class (:foreground ,green-d   :weight bold :italic t))))
-            `(outline-5                              ((,class (:foreground ,blue-l  :weight bold :italic t))))
-            `(outline-6                              ((,class (:foreground ,magenta-l :weight bold :italic t))))
-            `(outline-7                              ((,class (:foreground ,red-l     :weight bold :italic t))))
-            `(outline-8                              ((,class (:foreground ,green-l   :weight bold :italic t))))
+            `(outline-1  ((,class (:inherit org-level-1))))
+            `(outline-2  ((,class (:inherit org-level-2))))
+            `(outline-3  ((,class (:inherit org-level-3))))
+            `(outline-4  ((,class (:inherit org-level-4))))
+            `(outline-5  ((,class (:inherit org-level-5))))
+            `(outline-6  ((,class (:inherit org-level-6))))
+            `(outline-7  ((,class (:inherit org-level-7))))
+            `(outline-8  ((,class (:inherit org-level-8))))
+            `(outshine-1 ((,class (:inherit org-level-1))))
+            `(outshine-2 ((,class (:inherit org-level-2))))
+            `(outshine-3 ((,class (:inherit org-level-3))))
+            `(outshine-4 ((,class (:inherit org-level-4))))
+            `(outshine-5 ((,class (:inherit org-level-5))))
+            `(outshine-6 ((,class (:inherit org-level-6))))
+            `(outshine-7 ((,class (:inherit org-level-7))))
+            `(outshine-8 ((,class (:inherit org-level-8))))
+
 
 ;;;;; man
             `(Man-overstrike                         ((,class (:foreground ,head1 :inherit bold))))
