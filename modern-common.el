@@ -231,6 +231,11 @@
             `(doom-modeline-warning                  ((,class (:bold t :foreground ,yellow-d :height 1.2 :family "input mono condensed"))))
             `(doom-modeline-urgent                   ((,class (:bold t :foreground ,red-d :height 1.2 :family "input mono condensed"))))
 
+            `(mode-line                              ((,class (:foreground ,base :weight bold :background ,act1 :height 1.2 :family "input mono condensed"))))
+            `(mode-line-buffer-id                    ((,class (:inherit bold :foreground ,func :height 1.2 :family "input mono condensed"))))
+            `(mode-line-inactive                     ((,class (:foreground ,base-dim :weight bold :background ,act1 :height 1.2 :family "input mono condensed"))))
+            `(mode-line-highlight                    ((,class (:background ,act1 :foreground ,base :weight bold :height 1.2 :family "input mono condensed"))))
+
             `(doom-modeline-bar                      ((,class (:background ,blue))))
             ;; `(doom-modeline-eldoc-bar             ((,class ())))
             `(doom-modeline-inactive-bar             ((,class (:background ,blue-l))))
@@ -535,10 +540,6 @@
             `(markdown-header-face-6                 ((,class (:bold nil :foreground ,head2))))
 
 ;;;;; mode-line
-            `(mode-line                              ((,class (:foreground ,base :weight bold :background ,act1))))
-            `(mode-line-buffer-id                    ((,class (:inherit bold :foreground ,func))))
-            `(mode-line-inactive                     ((,class (:foreground ,base-dim :weight bold :background ,act1))))
-            `(mode-line-highlight                    ((,class (:background ,act1 :foreground ,base :weight bold))))
             ;; `(powerline-active1                   ((,class (:background ,act1 :foreground ,base ))))
             ;; `(powerline-active2                   ((,class (:background ,act1 :foreground ,base ))))
             ;; `(powerline-inactive1                 ((,class (:background ,act1 :foreground ,base ))))
