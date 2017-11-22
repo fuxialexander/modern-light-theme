@@ -232,9 +232,10 @@
             `(doom-modeline-urgent                   ((,class (:bold t :foreground ,red-d  ))))
 
             `(mode-line                              ((,class (:foreground ,base :weight bold :background ,act1  ))))
-            `(mode-line-buffer-id                    ((,class (:inherit bold :foreground ,func  ))))
+            `(mode-line-buffer-id                    ((,class (:weight bold :foreground ,func  ))))
             `(mode-line-inactive                     ((,class (:foreground ,base-dim :weight bold :background ,act1  ))))
             `(mode-line-highlight                    ((,class (:background ,act1 :foreground ,base :weight bold  ))))
+            `(mode-line-emphasis                    ((,class (:background ,act1 :foreground ,yellow-l :weight bold  ))))
 
             `(doom-modeline-bar                      ((,class (:background ,blue))))
             ;; `(doom-modeline-eldoc-bar             ((,class ())))
@@ -647,7 +648,7 @@
             `(ein:cell-heading-5                     ((,class :inherit org-level-5 )))
             `(ein:cell-heading-6                     ((,class :inherit org-level-6 )))
             `(ein:cell-output-prompt                 ((,class :foreground ,red :background ,red-bg :weight bold)))
-            `(ein:pos-tip-face                       ((,class :inherit popup-tip-face)))
+            ;; `(ein:pos-tip-face                       ((,class :inherit pos-tip-face)))
             `(ein:cell-output-stderr                 ((,class :background ,red-bg )))
 
 
