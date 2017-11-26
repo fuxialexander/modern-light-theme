@@ -69,6 +69,7 @@
             (bg3           (pcase variant ('dawn (if (true-color-p) "#18303F" "#121212")) ('dark (if (true-color-p) "#333333" "#121212")) ('light (if (true-color-p) "#E3E3E3" "#d0d0d0"))))
             (bg4           (pcase variant ('dawn (if (true-color-p) "#214054" "#080808")) ('dark (if (true-color-p) "#444444" "#080808")) ('light (if (true-color-p) "#D4D4D4" "#bcbcbc"))))
             (border        (pcase variant ('dawn (if (true-color-p) "#18303F" "#111111")) ('dark (if (true-color-p) "#202933" "#111111")) ('light (if (true-color-p) "#73B3FF" "#b3b9be"))))
+
             (cblk          (pcase variant ('dawn (if (true-color-p) "#AAA198" "#b2b2b2")) ('dark (if (true-color-p) "#ECEBE7" "#b2b2b2")) ('light (if (true-color-p) "#332A2A" "#5f5f87"))))
             (cblk-bg       (pcase variant ('dawn (if (true-color-p) "#18303F" "#262626")) ('dark (if (true-color-p) "#161C25" "#262626")) ('light (if (true-color-p) "#FFEEEE" "#ffffff"))))
             (cblk-ln       (pcase variant ('dawn (if (true-color-p) "#519CCD" "#af5faf")) ('dark (if (true-color-p) "#9BA3A6" "#af5faf")) ('light (if (true-color-p) "#60605F" "#af5fdf"))))
@@ -82,21 +83,10 @@
             (err           (pcase variant ('dawn (if (true-color-p) "#E46261" "#e0211d")) ('dark (if (true-color-p) "#FF7974" "#e0211d")) ('light (if (true-color-p) "#FF493F" "#e0211d"))))
             (func          (pcase variant ('dawn (if (true-color-p) "#648DFF" "#d75fd7")) ('dark (if (true-color-p) "#CFD838" "#d75fd7")) ('light (if (true-color-p) "#53B9E5" "#8700af"))))
 
-            (head1         (pcase variant ('dawn (if (true-color-p) "#53B9E5" "#268bd2")) ('dark (if (true-color-p) "#53B9E5" "#268bd2")) ('light (if (true-color-p) "#5585BD" "#268bd2"))))
-            (head1-bg      (pcase variant ('dawn (if (true-color-p) "#293239" "#262626")) ('dark (if (true-color-p) "#293239" "#262626")) ('light (if (true-color-p) "#D7E9FF" "#ffffff"))))
-            (head2         (pcase variant ('dawn (if (true-color-p) "#4BA8AF" "#2aa198")) ('dark (if (true-color-p) "#4BA8AF" "#2aa198")) ('light (if (true-color-p) "#4BA8AF" "#2aa198"))))
-            (head2-bg      (pcase variant ('dawn (if (true-color-p) "#293235" "#262626")) ('dark (if (true-color-p) "#293235" "#262626")) ('light (if (true-color-p) "#D5FCFF" "#ffffff"))))
-            (head3         (pcase variant ('dawn (if (true-color-p) "#819C00" "#67b11d")) ('dark (if (true-color-p) "#819C00" "#67b11d")) ('light (if (true-color-p) "#819C00" "#5faf00"))))
-            (head3-bg      (pcase variant ('dawn (if (true-color-p) "#293235" "#262626")) ('dark (if (true-color-p) "#293235" "#262626")) ('light (if (true-color-p) "#F2FFB6" "#ffffff"))))
-            (head4         (pcase variant ('dawn (if (true-color-p) "#9E6FB8" "#875f00")) ('dark (if (true-color-p) "#9E6FB8" "#875f00")) ('light (if (true-color-p) "#9E6FB8" "#875f00"))))
-            (head4-bg      (pcase variant ('dawn (if (true-color-p) "#32322c" "#262626")) ('dark (if (true-color-p) "#32322c" "#262626")) ('light (if (true-color-p) "#F5E2FF" "#ffffff"))))
-
             (highlight     (pcase variant ('dawn (if (true-color-p) "#2E2949" "#444444")) ('dark (if (true-color-p) "#42576B" "#444444")) ('light (if (true-color-p) "#D7E9FF" "#d7d7ff"))))
             (highlight-dim (pcase variant ('dawn (if (true-color-p) "#201D33" "#444444")) ('dark (if (true-color-p) "#3F5266" "#444444")) ('light (if (true-color-p) "#AFD4FF" "#d7d7ff"))))
             (keyword       (pcase variant ('dawn (if (true-color-p) "#648DFF" "#268bd2")) ('dark (if (true-color-p) "#53B9E5" "#268bd2")) ('light (if (true-color-p) "#5585BD" "#268bd2"))))
             (lnum          (pcase variant ('dawn (if (true-color-p) "#44505c" "#444444")) ('dark (if (true-color-p) "#44505c" "#444444")) ('light (if (true-color-p) "#a8a8bf" "#af87af"))))
-            (mat           (pcase variant ('dawn (if (true-color-p) "#8778D8" "#86dc2f")) ('dark (if (true-color-p) "#CFD838" "#86dc2f")) ('light (if (true-color-p) "#C73930" "#af005f"))))
-            (meta          (pcase variant ('dawn (if (true-color-p) "#2C5672" "#af875f")) ('dark (if (true-color-p) "#535356" "#af875f")) ('light (if (true-color-p) "#D5D5D8" "#df5f5f"))))
             (str           (pcase variant ('dawn (if (true-color-p) "#64C2FF" "#2aa198")) ('dark (if (true-color-p) "#428EE9" "#2aa198")) ('light (if (true-color-p) "#0019D5" "#2aa198"))))
             (suc           (pcase variant ('dawn (if (true-color-p) "#82D88F" "#86dc2f")) ('dark (if (true-color-p) "#D9F267" "#86dc2f")) ('light (if (true-color-p) "#768F00" "#00af00"))))
             (ttip          (pcase variant ('dawn (if (true-color-p) "#DDD1C6" "#888888")) ('dark (if (true-color-p) "#77A2C6" "#888888")) ('light (if (true-color-p) "#357797" "#5f5f87"))))
@@ -122,7 +112,6 @@
             (red-bg        (pcase variant ('dawn (if (true-color-p) "#422328" "#262626")) ('dark (if (true-color-p) "#3F1D1C" "#262626")) ('light (if (true-color-p) "#FFE5E4" "#ffffff"))))
             (red-bg-s      (pcase variant ('dawn (if (true-color-p) "#572926" "#262626")) ('dark (if (true-color-p) "#572926" "#262626")) ('light (if (true-color-p) "#FFD2D0" "#ffffff"))))
             (blue          (pcase variant ('dawn (if (true-color-p) "#1E95CC" "#268bd2")) ('dark (if (true-color-p) "#1E95CC" "#268bd2")) ('light (if (true-color-p) "#648DFF" "#268bd2"))))
-            (cyan          (pcase variant ('dawn (if (true-color-p) "#519CCD" "#00ffff")) ('dark (if (true-color-p) "#8CB6E1" "#00ffff")) ('light (if (true-color-p) "#88A8FF" "#008080"))))
             (blue-l        (pcase variant ('dawn (if (true-color-p) "#519CCD" "#00ffff")) ('dark (if (true-color-p) "#8CB6E1" "#00ffff")) ('light (if (true-color-p) "#88A8FF" "#008080"))))
             (blue-d        (pcase variant ('dawn (if (true-color-p) "#648DFF" "#268bd2")) ('dark (if (true-color-p) "#0089CC" "#268bd2")) ('light (if (true-color-p) "#3065FF" "#268bd2"))))
             (blue-bg       (pcase variant ('dawn (if (true-color-p) "#214054" "#262626")) ('dark (if (true-color-p) "#16313F" "#262626")) ('light (if (true-color-p) "#BDD9FF" "#d7d7ff"))))
@@ -275,11 +264,11 @@
             `(header-line                            ((,class :background ,act1)))
             `(highlight                              ((,class (:foreground ,base :background ,highlight))))
             `(hl-line                                ((,class (:background ,bg2))))
-            `(isearch                                ((,class (:foreground ,bg1 :background ,mat))))
+            `(isearch                                ((,class (:foreground ,bg1 :background ,magenta))))
             `(lazy-highlight                         ((,class (:background ,blue-bg :weight normal))))
             `(link                                   ((,class (:foreground ,comment :underline t))))
             `(link-visited                           ((,class (:foreground ,comp :underline t))))
-            `(match                                  ((,class (:background ,highlight :foreground ,mat))))
+            `(match                                  ((,class (:background ,highlight :foreground ,magenta))))
             `(minibuffer-prompt                      ((,class (:inherit bold :foreground ,keyword))))
             `(page-break-lines                       ((,class (:foreground ,act2))))
             `(region                                 ((,class (:background ,highlight))))
@@ -363,7 +352,7 @@
             `(ediff-odd-diff-C                       ((,class(:background ,bg4))))
 
 ;;;;; eldoc
-            `(eldoc-highlight-function-argument      ((,class (:foreground ,mat :inherit bold))))
+            `(eldoc-highlight-function-argument      ((,class (:foreground ,magenta :inherit bold))))
 
 ;;;;; eshell
             `(eshell-ls-archive                      ((,class (:foreground ,red :inherit bold))))
@@ -451,12 +440,12 @@
             `(font-latex-italic-face                 ((,class (:foreground ,keyword :italic t))))
             `(font-latex-match-reference-keywords    ((,class (:foreground ,const))))
             `(font-latex-match-variable-keywords     ((,class (:foreground ,var))))
-            `(font-latex-sectioning-0-face           ((,class (:inherit bold :foreground ,head3 :height ,(if modern-theme-org-height 1.3 1.0) :background ,(when modern-theme-org-highlight head3-bg)))))
-            `(font-latex-sectioning-1-face           ((,class (:inherit bold :foreground ,head4 :height ,(if modern-theme-org-height 1.3 1.0) :background ,(when modern-theme-org-highlight head4-bg)))))
-            `(font-latex-sectioning-2-face           ((,class (:inherit bold :foreground ,head1 :height ,(if modern-theme-org-height 1.3 1.0) :background ,(when modern-theme-org-highlight head1-bg)))))
-            `(font-latex-sectioning-3-face           ((,class (:inherit bold :foreground ,head2 :height ,(if modern-theme-org-height 1.2 1.0) :background ,(when modern-theme-org-highlight head2-bg)))))
-            `(font-latex-sectioning-4-face           ((,class (:bold nil :foreground ,head3 :height ,(if modern-theme-org-height 1.1 1.0) :background ,(when modern-theme-org-highlight head3-bg)))))
-            `(font-latex-sectioning-5-face           ((,class (:bold nil :foreground ,head4 :background ,(when modern-theme-org-highlight head4-bg)))))
+            `(font-latex-sectioning-0-face           ((,class (:inherit org-level-1))))
+            `(font-latex-sectioning-1-face           ((,class (:inherit org-level-2))))
+            `(font-latex-sectioning-2-face           ((,class (:inherit org-level-3))))
+            `(font-latex-sectioning-3-face           ((,class (:inherit org-level-4))))
+            `(font-latex-sectioning-4-face           ((,class (:inherit org-level-5))))
+            `(font-latex-sectioning-5-face           ((,class (:inherit org-level-6))))
             `(font-latex-string-face                 ((,class (:foreground ,str))))
             `(font-latex-warning-face                ((,class (:foreground ,war))))
 
@@ -528,17 +517,17 @@
 
 
 ;;;;; man
-            `(Man-overstrike                         ((,class (:foreground ,head1 :inherit bold))))
+            `(Man-overstrike                         ((,class (:foreground ,red-d :inherit bold))))
             `(Man-reverse                            ((,class (:foreground ,highlight))))
             `(Man-underline                          ((,class (:foreground ,comp :underline t))))
 
 ;;;;; markdown
-            `(markdown-header-face-1                 ((,class (:inherit bold :foreground ,head1 :height ,(if modern-theme-org-height 1.3 1.0) :background ,(when modern-theme-org-highlight head1-bg)))))
-            `(markdown-header-face-2                 ((,class (:inherit bold :foreground ,head2 :height ,(if modern-theme-org-height 1.2 1.0) :background ,(when modern-theme-org-highlight head2-bg)))))
-            `(markdown-header-face-3                 ((,class (:bold nil :foreground ,head3 :height ,(if modern-theme-org-height 1.1 1.0) :background ,(when modern-theme-org-highlight head3-bg)))))
-            `(markdown-header-face-4                 ((,class (:bold nil :foreground ,head4 :background ,(when modern-theme-org-highlight head4-bg)))))
-            `(markdown-header-face-5                 ((,class (:bold nil :foreground ,head1))))
-            `(markdown-header-face-6                 ((,class (:bold nil :foreground ,head2))))
+            `(markdown-header-face-1                 ((,class (:inherit org-level-1))))
+            `(markdown-header-face-2                 ((,class (:inherit org-level-2))))
+            `(markdown-header-face-3                 ((,class (:inherit org-level-3))))
+            `(markdown-header-face-4                 ((,class (:inherit org-level-4))))
+            `(markdown-header-face-5                 ((,class (:inherit org-level-5))))
+            `(markdown-header-face-6                 ((,class (:inherit org-level-6))))
 
 ;;;;; mode-line
             ;; `(powerline-active1                   ((,class (:background ,act1 :foreground ,base ))))
@@ -584,7 +573,7 @@
             `(org-column-title                       ((,class (:family "operator mono" :background ,highlight))))
             `(org-date                               ((,class (:family "operator mono" :underline nil :weight bold :foreground ,yellow-d :background ,yellow-bg))))
             `(org-date-selected                      ((,class (:family "operator mono" :weight bold :background ,yellow-bg :foreground ,yellow-d))))
-            `(org-document-info-keyword              ((,class (:family "operator mono" :foreground ,meta))))
+            `(org-document-info-keyword              ((,class (:family "operator mono" :foreground ,base))))
             `(org-document-title                     ((,class (:family "futura" :foreground ,func :inherit bold :height ,(if modern-theme-org-height 1.4 1.0) :underline t))))
             `(org-headline-done                      ((,class (:foreground ,base-dim :weight bold :slant italic :background ,bg1))))
             `(org-ellipsis                           ((,class (:foreground ,bg4))))
@@ -599,8 +588,8 @@
             `(org-level-6                            ((,class (:family "operator ssm" :foreground ,magenta-l :weight bold :slant italic))))
             `(org-level-7                            ((,class (:family "operator ssm" :foreground ,red-l     :weight bold :slant italic))))
             `(org-level-8                            ((,class (:family "operator ssm" :foreground ,green-l   :weight bold :slant italic))))
-            `(org-link                               ((,class (:family "operator mono" :underline t))))
-            `(org-meta-line                          ((,class (:family "operator mono" :foreground ,meta))))
+            `(org-link                               ((,class (:underline t))))
+            `(org-meta-line                          ((,class (:family "operator mono" :foreground ,base))))
             `(org-mode-line-clock-overrun            ((,class (:foreground ,err))))
             `(org-priority                           ((,class (:family "operator mono" :foreground ,war :height 0.85 :inherit bold))))
             `(org-quote                              ((,class (:family "operator mono" :inherit org-block :slant italic))))
@@ -674,7 +663,7 @@
 
 ;;;;; smartparens
             `(sp-pair-overlay-face                   ((,class (:background ,highlight :foreground nil))))
-            `(sp-show-pair-match-face                ((,class (:foreground ,mat :inherit bold :underline t))))
+            `(sp-show-pair-match-face                ((,class (:foreground ,magenta :inherit bold :underline t))))
 
 ;;;;; smerge
             `(smerge-base                            ((,class (:background ,yellow-bg))))
@@ -693,15 +682,6 @@
 
 ;;;;; modern-specific
             `(modern-transient-state-title-face      ((,class (:background nil :foreground ,comp :box nil :inherit bold))))
-
-;;;;; tabbar
-            `(tabbar-button                          ((,class (:inherit tabbar-default ))))
-            `(tabbar-button-highlight                ((,class (:inherit tabbar-default))))
-            `(tabbar-default                         ((,class (:background ,bg1 :foreground ,head1 :height 0.9))))
-            `(tabbar-highlight                       ((,class (:underline t))))
-            `(tabbar-selected                        ((,class (:inherit tabbar-default :foreground ,func :weight bold))))
-            `(tabbar-separator                       ((,class (:inherit tabbar-default))))
-            `(tabbar-unselected                      ((,class (:inherit tabbar-default :background ,bg1 :slant italic :weight light))))
 
 ;;;;; term
             `(term                                   ((,class (:foreground ,base :background ,bg1))))
