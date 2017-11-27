@@ -555,14 +555,14 @@
             `(org-scheduled-previously               ((,class (:family "operator mono" :inherit org-level-3 :foreground ,func :height ,(if modern-theme-org-agenda-height 1.2 1.0)))))
 
 
-            `(org-habit-clear-face                   ((,class (:family "operator mono" :background ,bg1 ))))
-            `(org-habit-clear-future-face            ((,class (:family "operator mono" :background ,bg1 ))))
-            `(org-habit-ready-face                   ((,class (:family "operator mono" :background ,blue-bg ))))
-            `(org-habit-ready-future-face            ((,class (:family "operator mono" :background ,blue-bg ))))
-            `(org-habit-alert-face                   ((,class (:family "operator mono" :background ,yellow-bg ))))
-            `(org-habit-alert-future-face            ((,class (:family "operator mono" :background ,yellow-bg ))))
-            `(org-habit-overdue-face                 ((,class (:family "operator mono" :background ,bg3 ))))
-            `(org-habit-overdue-future-face          ((,class (:family "operator mono" :background ,red-bg ))))
+            `(org-habit-clear-face                   ((,class (:bold t :family "iosevka" :background ,bg1 :foreground ,bg1 ))))
+            `(org-habit-clear-future-face            ((,class (:bold t :family "iosevka" :background ,bg1 :foreground ,bg1 ))))
+            `(org-habit-ready-face                   ((,class (:bold t :family "iosevka" :background ,blue-bg :foreground ,blue-bg ))))
+            `(org-habit-ready-future-face            ((,class (:bold t :family "iosevka" :background ,blue-bg :foreground ,blue-bg ))))
+            `(org-habit-alert-face                   ((,class (:bold t :family "iosevka" :background ,yellow-bg :foreground ,yellow-bg ))))
+            `(org-habit-alert-future-face            ((,class (:bold t :family "iosevka" :background ,yellow-bg :foreground ,yellow-bg ))))
+            `(org-habit-overdue-face                 ((,class (:bold t :family "iosevka" :background ,red-bg :foreground ,red-bg ))))
+            `(org-habit-overdue-future-face          ((,class (:bold t :family "iosevka" :background ,red-bg :foreground ,red-bg ))))
 
             `(org-block                              ((,class (:family "operator mono" :background ,cblk-bg :foreground ,cblk))))
             `(org-block-begin-line                   ((,class (:family "operator mono" :background ,cblk-ln-bg :foreground ,cblk-ln))))
