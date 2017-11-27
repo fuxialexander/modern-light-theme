@@ -555,13 +555,13 @@
             `(org-scheduled-previously               ((,class (:family "operator mono" :inherit org-level-3 :foreground ,func :height ,(if modern-theme-org-agenda-height 1.2 1.0)))))
 
 
-            `(org-habit-clear-face                   ((,class (:family "operator mono" :background ,bg4 ))))
-            `(org-habit-clear-future-face            ((,class (:family "operator mono" :background ,bg3 ))))
-            `(org-habit-ready-face                   ((,class (:family "operator mono" :background ,blue ))))
+            `(org-habit-clear-face                   ((,class (:family "operator mono" :background ,bg1 ))))
+            `(org-habit-clear-future-face            ((,class (:family "operator mono" :background ,bg1 ))))
+            `(org-habit-ready-face                   ((,class (:family "operator mono" :background ,blue-bg ))))
             `(org-habit-ready-future-face            ((,class (:family "operator mono" :background ,blue-bg ))))
-            `(org-habit-alert-face                   ((,class (:family "operator mono" :background ,yellow ))))
+            `(org-habit-alert-face                   ((,class (:family "operator mono" :background ,yellow-bg ))))
             `(org-habit-alert-future-face            ((,class (:family "operator mono" :background ,yellow-bg ))))
-            `(org-habit-overdue-face                 ((,class (:family "operator mono" :background ,red ))))
+            `(org-habit-overdue-face                 ((,class (:family "operator mono" :background ,bg3 ))))
             `(org-habit-overdue-future-face          ((,class (:family "operator mono" :background ,red-bg ))))
 
             `(org-block                              ((,class (:family "operator mono" :background ,cblk-bg :foreground ,cblk))))
