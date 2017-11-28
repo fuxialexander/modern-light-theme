@@ -601,8 +601,8 @@
             `(org-time-grid                          ((,class (:family "operator mono" :foreground ,str))))
             `(org-todo                               ((,class (:family "operator mono" :foreground ,war :inherit bold :background ,yellow-bg))))
             `(org-verbatim                           ((,class (:family "operator mono" :foreground ,keyword))))
-            `(org-verse                              ((,class (:inherit org-block :slant italic))))
-            `(org-warning                            ((,class (:foreground ,red-d :weight bold :slant italic))))
+            `(org-verse                              ((,class (:family "operator mono" :background ,cblk-bg :foreground ,cblk :slant italic))))
+            `(org-warning                            ((,class (:family "operator mono" :foreground ,red-d :weight bold :slant italic))))
 
             `(org-todo-keyword-todo                ((,class (:foreground ,blue-d :background ,blue-bg :weight bold  ))))
             `(org-todo-keyword-habt                ((,class (:foreground ,yellow-d :background ,yellow-bg :weight bold  ))))
