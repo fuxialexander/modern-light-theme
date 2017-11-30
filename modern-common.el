@@ -597,7 +597,7 @@
             `(org-level-6                            ((,class (:family "operator ssm" :foreground ,magenta-l :weight bold :slant italic))))
             `(org-level-7                            ((,class (:family "operator ssm" :foreground ,red-l     :weight bold :slant italic))))
             `(org-level-8                            ((,class (:family "operator ssm" :foreground ,green-l   :weight bold :slant italic))))
-            `(org-link                               ((,class (:inherit nil :family nil :underline t))))
+            `(org-link                               ((,class (:inherit default :underline t))))
             `(org-meta-line                          ((,class (:family "operator mono" :foreground ,bg4))))
             `(org-mode-line-clock-overrun            ((,class (:foreground ,err))))
             `(org-priority                           ((,class (:family "operator mono" :foreground ,war :height 0.85 :inherit bold))))
