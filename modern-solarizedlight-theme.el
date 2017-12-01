@@ -1,6 +1,6 @@
 (require 'modern-common)
 
-(deftheme modern-solarizeddark "Modern theme, the solarizeddark version")
+(deftheme modern-solarizedlight "Modern theme, the solarizedlight version")
 
 (let* (
             (class '((class color) (min-colors 89)))
@@ -82,7 +82,7 @@
             (ttip-bg       bg4)
 
             )
-  (create-modern-theme 'modern-solarizeddark)
-  (provide-theme 'modern-solarizeddark)
+  (create-modern-theme 'modern-solarizedlight)
+  (provide-theme 'modern-solarizedlight)
 )
 
