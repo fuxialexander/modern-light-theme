@@ -12,29 +12,29 @@
             (magenta       "#8778D8")
             (yellow        "#FFED6A")
 
-            (blue-l     (colir-blend ,bg1 ,blue 0.4))
-            (blue-d     (colir-blend ,bg1 ,blue 0.2))
-            (blue-bg    (colir-blend ,bg1 ,blue 0.8))
+            (blue-l     ,(colir-blend bg1 blue 0.4))
+            (blue-d     ,(colir-blend bg1 blue 0.2))
+            (blue-bg    ,(colir-blend bg1 blue 0.8))
 
-            (red-l      (colir-blend ,bg1 ,red 0.4))
-            (red-d      (colir-blend ,bg1 ,red 0.2))
-            (red-bg     (colir-blend ,bg1 ,red 0.8))
+            (red-l      ,(colir-blend bg1 red 0.4))
+            (red-d      ,(colir-blend bg1 red 0.2))
+            (red-bg     ,(colir-blend bg1 red 0.8))
 
-            (yellow-l   (colir-blend ,bg1 ,yellow 0.4))
-            (yellow-d   (colir-blend ,bg1 ,yellow 0.2))
-            (yellow-bg  (colir-blend ,bg1 ,yellow 0.8))
+            (yellow-l   ,(colir-blend bg1 yellow 0.4))
+            (yellow-d   ,(colir-blend bg1 yellow 0.2))
+            (yellow-bg  ,(colir-blend bg1 yellow 0.8))
 
-            (magenta-l  (colir-blend ,bg1 ,magenta 0.4))
-            (magenta-d  (colir-blend ,bg1 ,magenta 0.2))
-            (magenta-bg (colir-blend ,bg1 ,magenta 0.8))
+            (magenta-l  ,(colir-blend bg1 magenta 0.4))
+            (magenta-d  ,(colir-blend bg1 magenta 0.2))
+            (magenta-bg ,(colir-blend bg1 magenta 0.8))
 
-            (green-l    (colir-blend ,bg1 ,green 0.4))
-            (green-d    (colir-blend ,bg1 ,green 0.2))
-            (green-bg   (colir-blend ,bg1 ,green 0.8))
+            (green-l    ,(colir-blend bg1 green 0.4))
+            (green-d    ,(colir-blend bg1 green 0.2))
+            (green-bg   ,(colir-blend bg1 green 0.8))
 
-            (aqua-l     (colir-blend ,bg1 ,aqua 0.4))
-            (aqua-d     (colir-blend ,bg1 ,aqua 0.2))
-            (aqua-bg    (colir-blend ,bg1 ,aqua 0.8))
+            (aqua-l     ,(colir-blend bg1 aqua 0.4))
+            (aqua-d     ,(colir-blend bg1 aqua 0.2))
+            (aqua-bg    ,(colir-blend bg1 aqua 0.8))
 
 
 ;;; General
