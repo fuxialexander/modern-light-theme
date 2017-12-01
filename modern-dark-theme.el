@@ -73,7 +73,7 @@
             (str           base3)
             (keyword       aqua)
 
-            (highlight     (modern-blend bg1 blue 0.9))
+            (highlight     (modern-blend bg1 blue 0.7))
 
             (ttip          base2)
             (ttip-sl       bg4)
