@@ -52,8 +52,8 @@
 
 
 ;;; General
-            (act1          bg3)
-            (act2          bg3)
+            (act1          bg2)
+            (act2          bg2)
             (cblk          base2)
             (cblk-bg       bg2)
             (cblk-ln       base3)
