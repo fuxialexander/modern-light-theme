@@ -76,8 +76,6 @@ influence of C1 on the result."
           modern-theme-custom-colors))
 
 (defun create-modern-theme (theme-name)
-  (dyn-let custom-colors-override
-
            (custom-theme-set-faces
             theme-name
 
@@ -704,12 +702,10 @@ influence of C1 on the result."
             `(undo-tree-visualizer-default-face      ((,class (  :foreground ,base))))
             `(undo-tree-visualizer-register-face     ((,class (  :foreground ,comp))))
             `(undo-tree-visualizer-unmodified-face   ((,class (  :foreground ,var)))))
-
            (custom-theme-set-variables
             theme-name
             `(ansi-color-names-vector [,bg4 ,red ,green ,yellow ,blue ,magenta ,blue-l ,base]))
-
-           ))
+           )
 
 
 ;;;###autoload
