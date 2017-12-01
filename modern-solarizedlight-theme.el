@@ -5,10 +5,10 @@
 (let* (
             (class '((class color) (min-colors 89)))
 ;;; colors
-            (base3   "#93a1a1")
-            (base2   "#839496")
-            (base1   "#768688")
             (base1   "#6A797B")
+            (base2   "#768688")
+            (base3   "#839496")
+            (base4   "#93a1a1")
 
             (bg1     "#fdf6e3")
             (bg2     "#FFEFD6")
