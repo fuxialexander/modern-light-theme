@@ -69,7 +69,7 @@ influence of C1 on the result."
          (cl-mapcar
           (lambda (x y)
             (round (+ (* x alpha) (* y (- 1 alpha)))))
-          c1 c2)))
+          (color-values c1 ) (color-values c2))))
 
 (defun custom-colors-override ()
   (mapcar (lambda (x) (list (car x) (cdr x)))
@@ -79,7 +79,7 @@ influence of C1 on the result."
            (custom-theme-set-faces
             theme-name
 
-            `(bold                                   ((,class (:foreground ,base-b :bold t))))
+            `(bold                                   ((,class (:foreground ,base3 :bold t))))
             `(variable-pitch                         ((,class (:height 1.2 :spacing 1.5 :family "Operator Ssm"))))
 
 ;;;;; Notmuch
@@ -100,7 +100,7 @@ influence of C1 on the result."
             `(notmuch-search-matching-authors        ((,class (:background ,bg1     :foreground ,blue-d         ))))
             `(notmuch-search-non-matching-authors    ((,class (:background ,bg1     :foreground ,blue           ))))
             `(notmuch-search-subject                 ((,class (:background ,bg1     :foreground ,base           ))))
-            `(notmuch-search-unread-face             ((,class (:background ,bg1     :foreground ,base-b :bold t ))))
+            `(notmuch-search-unread-face             ((,class (:background ,bg1     :foreground ,base3 :bold t ))))
 
             `(notmuch-tag-added                      ((,class (:background ,bg1     :foreground ,green-d        ))))
             `(notmuch-tag-deleted                    ((,class (:background ,bg1     :foreground ,red-d          ))))
@@ -116,8 +116,8 @@ influence of C1 on the result."
             `(notmuch-tree-match-tree-face           ((,class (:background ,bg1     :foreground ,yellow-d       ))))
             `(notmuch-tree-no-match-author-face      ((,class (:background ,bg1     :foreground ,blue-l         ))))
             `(notmuch-tree-no-match-date-face        ((,class (:background ,bg1     :foreground ,aqua-l         ))))
-            `(notmuch-tree-no-match-face             ((,class (:background ,bg1     :foreground ,base-dim       ))))
-            `(notmuch-tree-no-match-subject-face     ((,class (:background ,bg1     :foreground ,base-dim       ))))
+            `(notmuch-tree-no-match-face             ((,class (:background ,bg1     :foreground ,base2       ))))
+            `(notmuch-tree-no-match-subject-face     ((,class (:background ,bg1     :foreground ,base2       ))))
             `(notmuch-tree-no-match-tag-face         ((,class (:background ,bg1     :foreground ,blue-l         ))))
             `(notmuch-tree-no-match-tree-face        ((,class (:background ,bg1     :foreground ,yellow-l       ))))
 
@@ -140,7 +140,7 @@ influence of C1 on the result."
             `(elfeed-search-tag-face                 ((,class (:foreground ,blue-d :background ,blue-bg :bold t :family "iosevka" :height 1.0   ))))
             `(elfeed-search-title-face               ((,class (:foreground ,base   :family "Operator Mono" :height 1.0     ))))
             `(elfeed-search-unread-count-face        ((,class (:foreground ,blue-l   :family "Operator Mono" :height 1.0   ))))
-            `(elfeed-search-unread-title-face        ((,class (:foreground ,base-b :family "Operator Mono" :height 1.0 :bold t))))
+            `(elfeed-search-unread-title-face        ((,class (:foreground ,base3 :family "Operator Mono" :height 1.0 :bold t))))
 
 ;;;;; Message
             `(message-cited-text                     ((,class (:foreground ,blue-l    ))))
@@ -171,7 +171,7 @@ influence of C1 on the result."
 
             `(mode-line                              ((,class (:foreground ,base :weight bold :background ,act1  ))))
             `(mode-line-buffer-id                    ((,class (:weight bold :foreground ,func  ))))
-            `(mode-line-inactive                     ((,class (:foreground ,base-dim :weight bold :background ,act1  ))))
+            `(mode-line-inactive                     ((,class (:foreground ,base2 :weight bold :background ,act1  ))))
             `(mode-line-highlight                    ((,class (:background ,act1 :foreground ,base :weight bold  ))))
             `(mode-line-emphasis                    ((,class (:background ,act1 :foreground ,yellow-l :weight bold  ))))
 
@@ -222,10 +222,10 @@ influence of C1 on the result."
             `(page-break-lines                       ((,class (:foreground ,act2))))
             `(region                                 ((,class (:background ,highlight))))
             `(secondary-selection                    ((,class (:background ,bg3))))
-            `(shadow                                 ((,class (:foreground ,base-dim))))
+            `(shadow                                 ((,class (:foreground ,base2))))
             `(success                                ((,class (:foreground ,suc))))
             `(tooltip                                ((,class (:background ,ttip-bg :foreground ,base :bold nil :italic nil :underline nil))))
-            `(vertical-border                        ((,class (:foreground ,border))))
+            `(vertical-border                        ((,class (:foreground ,bg3))))
             `(warning                                ((,class (:foreground ,war))))
 
 ;;;;; auto-complete
@@ -283,9 +283,9 @@ influence of C1 on the result."
             `(dired-warning                          ((,class (:foreground ,war))))
 
 ;;;;; ediff
-            `(ediff-current-diff-A                   ((,class(:background ,red-bg-s :foreground ,red))))
+            `(ediff-current-diff-A                   ((,class(:background ,red-bg :foreground ,red))))
             `(ediff-current-diff-Ancestor            ((,class(:background ,aqua-bg :foreground ,aqua))))
-            `(ediff-current-diff-B                   ((,class(:background ,green-bg-s :foreground ,green))))
+            `(ediff-current-diff-B                   ((,class(:background ,green-bg :foreground ,green))))
             `(ediff-current-diff-C                   ((,class(:background ,blue-bg :foreground ,blue))))
             `(ediff-even-diff-A                      ((,class(:background ,bg3))))
             `(ediff-even-diff-Ancestor               ((,class(:background ,bg3))))
@@ -497,7 +497,7 @@ influence of C1 on the result."
             `(org-agenda-date                        ((,class (:family "operator mono" :foreground ,var ))))
             `(org-agenda-date-today                  ((,class (:family "operator mono" :foreground ,keyword :inherit bold ))))
             `(org-agenda-date-weekend                ((,class (:family "operator mono" :foreground ,var))))
-            `(org-agenda-done                        ((,class (:family "operator mono" :foreground ,base-dim ))))
+            `(org-agenda-done                        ((,class (:family "operator mono" :foreground ,base2 ))))
             `(org-agenda-structure                   ((,class (:family "operator mono" :weight bold :overline t :underline t :slant italic :foreground ,comp))))
             `(org-scheduled                          ((,class (:family "operator mono" :slant italic :weight bold :foreground ,comp))))
             `(org-scheduled-today                    ((,class (:family "operator mono" :slant italic :weight bold :foreground ,func ))))
@@ -533,7 +533,7 @@ influence of C1 on the result."
             `(org-date-selected                      ((,class (:family "operator mono" :weight bold :background ,yellow-bg :foreground ,yellow-d))))
             `(org-document-info-keyword              ((,class (:family "operator mono" :foreground ,base))))
             `(org-document-title                     ((,class (:family "futura" :foreground ,func :inherit bold :height ,(if modern-theme-org-height 1.4 1.0) :underline t))))
-            `(org-headline-done                      ((,class (:foreground ,base-dim :weight bold :slant italic :background ,bg1))))
+            `(org-headline-done                      ((,class (:foreground ,base2 :weight bold :slant italic :background ,bg1))))
             `(org-ellipsis                           ((,class (:foreground ,bg4))))
             `(org-footnote                           ((,class (:underline t :foreground ,base))))
             `(org-hide                               ((,class (:foreground ,base))))
@@ -602,12 +602,12 @@ influence of C1 on the result."
             `(rainbow-delimiters-unmatched-face      ((,class :foreground ,err :overline t)))
 
 ;;;;; shm
-            `(shm-current-face                       ((,class (:background ,green-bg-s))))
-            `(shm-quarantine-face                    ((,class (:background ,red-bg-s))))
+            `(shm-current-face                       ((,class (:background ,green-bg))))
+            `(shm-quarantine-face                    ((,class (:background ,red-bg))))
 
 ;;;;; show-paren
-            `(show-paren-match                       ((,class (:background ,green-bg-s))))
-            `(show-paren-mismatch                    ((,class (:background ,red-bg-s))))
+            `(show-paren-match                       ((,class (:background ,green-bg))))
+            `(show-paren-mismatch                    ((,class (:background ,red-bg))))
 
 ;;;;; smartparens
             `(sp-pair-overlay-face                   ((,class (:background ,highlight :foreground nil))))
@@ -618,9 +618,9 @@ influence of C1 on the result."
             `(smerge-markers                         ((,class (:background ,ttip-bg :foreground ,ttip))))
             `(smerge-mine                            ((,class (:background ,red-bg))))
             `(smerge-other                           ((,class (:background ,green-bg))))
-            `(smerge-refined-added                   ((,class (:background ,green-bg-s :foreground ,green))))
+            `(smerge-refined-added                   ((,class (:background ,green-bg :foreground ,green))))
             `(smerge-refined-changed                 ((,class (:background ,blue-bg :foreground ,blue))))
-            `(smerge-refined-removed                 ((,class (:background ,red-bg-s :foreground ,red))))
+            `(smerge-refined-removed                 ((,class (:background ,red-bg :foreground ,red))))
 
 ;;;;; spaceline
             `(spaceline-flycheck-error               ((,class (:foreground ,err))))

@@ -4,16 +4,50 @@
 
 (let (
             (class '((class color) (min-colors 89)))
+;;; colors
+            (aqua          "#DC9E66")
+            (green         "#82D88F")
+            (red           "#D87184")
+            (blue          "#1E95CC")
+            (magenta       "#8778D8")
+            (yellow        "#FFED6A")
+
+            (blue-l     (colir-blend ,bg1 ,blue 0.4))
+            (blue-d     (colir-blend ,bg1 ,blue 0.2))
+            (blue-bg    (colir-blend ,bg1 ,blue 0.8))
+
+            (red-l      (colir-blend ,bg1 ,red 0.4))
+            (red-d      (colir-blend ,bg1 ,red 0.2))
+            (red-bg     (colir-blend ,bg1 ,red 0.8))
+
+            (yellow-l   (colir-blend ,bg1 ,yellow 0.4))
+            (yellow-d   (colir-blend ,bg1 ,yellow 0.2))
+            (yellow-bg  (colir-blend ,bg1 ,yellow 0.8))
+
+            (magenta-l  (colir-blend ,bg1 ,magenta 0.4))
+            (magenta-d  (colir-blend ,bg1 ,magenta 0.2))
+            (magenta-bg (colir-blend ,bg1 ,magenta 0.8))
+
+            (green-l    (colir-blend ,bg1 ,green 0.4))
+            (green-d    (colir-blend ,bg1 ,green 0.2))
+            (green-bg   (colir-blend ,bg1 ,green 0.8))
+
+            (aqua-l     (colir-blend ,bg1 ,aqua 0.4))
+            (aqua-d     (colir-blend ,bg1 ,aqua 0.2))
+            (aqua-bg    (colir-blend ,bg1 ,aqua 0.8))
+
+
+;;; General
             (act1          "#18303F")
             (act2          "#18303F")
             (base          "#C9BAAC")
-            (base-b        "#DDD1C6")
-            (base-dim      "#AAA198")
+            (base2       "#DDD1C6")
+            (base3      "#AAA198")
+            (base4      "#AAA198")
             (bg1           "#101F29")
             (bg2           "#132632")
             (bg3           "#18303F")
             (bg4           "#214054")
-            (border        "#18303F")
 
             (cblk          "#AAA198")
             (cblk-bg       "#18303F")
@@ -41,33 +75,6 @@
             (var           "#FFED6A")
             (war           "#DC9E66")
 
-            ;; colors
-            (aqua          "#DC9E66")
-            (aqua-l        "#C79C77")
-            (aqua-d        "#F1AD4D")
-            (aqua-bg       "#4E3824")
-            (green         "#82D88F")
-            (green-l       "#7FB087")
-            (green-d       "#99DA63")
-            (green-bg      "#326046")
-            (green-bg-s    "#224630")
-            (red           "#D87184")
-            (red-l         "#BB7B86")
-            (red-d         "#E46261")
-            (red-bg        "#422328")
-            (red-bg-s      "#572926")
-            (blue          "#1E95CC")
-            (blue-l        "#519CCD")
-            (blue-d        "#648DFF")
-            (blue-bg       "#214054")
-            (magenta       "#8778D8")
-            (magenta-l     "#837EB9")
-            (magenta-d     "#9C75ED")
-            (magenta-bg    "#2E2949")
-            (yellow        "#FFED6A")
-            (yellow-l      "#EADC77")
-            (yellow-d      "#FFDA53")
-            (yellow-bg     "#575124")
             )
   (create-modern-theme 'modern-dawn)
   (provide-theme 'modern-dawn)
