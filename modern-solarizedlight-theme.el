@@ -11,16 +11,16 @@
             (base1   "#768688")
 
             (bg1     "#fdf6e3")
-            (bg2     "#eee8d5")
-            (bg3     "#E1DBC9")
-            (bg4     "#D4CEBD")
+            (bg2     "#FFEFD6")
+            (bg3     "#F2E3CB")
+            (bg4     "#E3DCCC")
 
             (aqua    "#2aa198")
             (green   "#859900")
             (red     "#dc322f")
             (blue    "#268bd2")
             (magenta "#d33682")
-            (violet "#6c71c4")
+            (violet  "#6c71c4")
             (yellow  "#b58900")
             (orange  "#cb4b16")
 
@@ -52,7 +52,7 @@
 
 
 ;;; General
-            (act1          bg4)
+            (act1          bg3)
             (act2          bg3)
             (cblk          base2)
             (cblk-bg       bg2)
@@ -60,26 +60,25 @@
             (cblk-ln-bg    bg3)
             (cursor        blue)
             (const         green)
-            (comment       base3)
-            (comment-light base4)
+            (comment       base4)
             (comment-bg    bg2)
 
-            (err           red-d)
+            (err           red)
             (war           orange)
             (suc           green)
             (func          blue)
-            (comp          "#D87184")
+            (comp          violet)
             (type          red)
             (var           yellow)
             (str           base3)
             (keyword       aqua)
 
-            (highlight     (modern-blend bg1 blue 0.7))
-            (highlight-dim     (modern-blend bg1 blue 0.9))
+            (highlight     (modern-blend bg1 blue 0.9))
 
             (ttip          base2)
-            (ttip-sl       base4)
-            (ttip-bg       bg4)
+            (ttip-sl       bg4)
+            (ttip-bg       bg2)
+
 
             )
   (create-modern-theme 'modern-solarizedlight)

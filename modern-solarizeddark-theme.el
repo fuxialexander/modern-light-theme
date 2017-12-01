@@ -52,7 +52,7 @@
 
 
 ;;; General
-            (act1          bg4)
+            (act1          bg3)
             (act2          bg3)
             (cblk          base2)
             (cblk-bg       bg2)
@@ -60,26 +60,24 @@
             (cblk-ln-bg    bg3)
             (cursor        blue)
             (const         green)
-            (comment       base3)
-            (comment-light base4)
+            (comment       base4)
             (comment-bg    bg2)
 
-            (err           red-d)
+            (err           red)
             (war           orange)
             (suc           green)
             (func          blue)
-            (comp          "#D87184")
+            (comp          violet)
             (type          red)
             (var           yellow)
             (str           base3)
             (keyword       aqua)
 
-            (highlight     (modern-blend bg1 blue 0.7))
-            (highlight-dim     (modern-blend bg1 blue 0.9))
+            (highlight     (modern-blend bg1 blue 0.9))
 
             (ttip          base2)
-            (ttip-sl       base4)
-            (ttip-bg       bg4)
+            (ttip-sl       bg4)
+            (ttip-bg       bg2)
 
             )
   (create-modern-theme 'modern-solarizeddark)
