@@ -18,7 +18,7 @@
             (aqua    "#3F988E")
             (green   "#9AC657")
             (red     "#DC5F6D")
-            (blue    "#384776")
+            (blue    "#5870BA")
             (magenta "#BF65B6")
             (violet  "#7E6BBC")
             (yellow  "#CAB25E")
