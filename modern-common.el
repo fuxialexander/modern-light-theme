@@ -59,7 +59,7 @@ Inverse of `color-values'."
           (ash g -8)
           (ash b -8)))
 
-(defun colir-blend (c1 c2 &optional alpha)
+(defun modern-blend (c1 c2 &optional alpha)
   "Blend the two colors C1 and C2 with ALPHA.
 C1 and C2 are in the format of `color-values'.
 ALPHA is a number between 0.0 and 1.0 which corresponds to the

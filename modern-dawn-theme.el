@@ -2,39 +2,9 @@
 
 (deftheme modern-dawn "Modern theme, the dawn version")
 
-(let (
+(let* (
             (class '((class color) (min-colors 89)))
 ;;; colors
-            (aqua          "#DC9E66")
-            (green         "#82D88F")
-            (red           "#D87184")
-            (blue          "#1E95CC")
-            (magenta       "#8778D8")
-            (yellow        "#FFED6A")
-
-            (blue-l     (colir-blend ,bg1 ,blue 0.4))
-            (blue-d     (colir-blend ,bg1 ,blue 0.2))
-            (blue-bg    (colir-blend ,bg1 ,blue 0.8))
-            (red-l      (colir-blend ,bg1 ,red 0.4))
-            (red-d      (colir-blend ,bg1 ,red 0.2))
-            (red-bg     (colir-blend ,bg1 ,red 0.8))
-            (yellow-l   (colir-blend ,bg1 ,yellow 0.4))
-            (yellow-d   (colir-blend ,bg1 ,yellow 0.2))
-            (yellow-bg  (colir-blend ,bg1 ,yellow 0.8))
-            (magenta-l  (colir-blend ,bg1 ,magenta 0.4))
-            (magenta-d  (colir-blend ,bg1 ,magenta 0.2))
-            (magenta-bg (colir-blend ,bg1 ,magenta 0.8))
-            (green-l    (colir-blend ,bg1 ,green 0.4))
-            (green-d    (colir-blend ,bg1 ,green 0.2))
-            (green-bg   (colir-blend ,bg1 ,green 0.8))
-            (aqua-l     (colir-blend ,bg1 ,aqua 0.4))
-            (aqua-d     (colir-blend ,bg1 ,aqua 0.2))
-            (aqua-bg    (colir-blend ,bg1 ,aqua 0.8))
-
-
-;;; General
-            (act1          "#18303F")
-            (act2          "#18303F")
             (base          "#C9BAAC")
             (base2       "#DDD1C6")
             (base3      "#AAA198")
@@ -44,6 +14,36 @@
             (bg3           "#18303F")
             (bg4           "#214054")
 
+            (aqua          "#DC9E66")
+            (green         "#82D88F")
+            (red           "#D87184")
+            (blue          "#1E95CC")
+            (magenta       "#8778D8")
+            (yellow        "#FFED6A")
+
+            (blue-l     (modern-blend ,bg1 ,blue 0.4))
+            (blue-d     (modern-blend ,bg1 ,blue 0.2))
+            (blue-bg    (modern-blend ,bg1 ,blue 0.8))
+            (red-l      (modern-blend ,bg1 ,red 0.4))
+            (red-d      (modern-blend ,bg1 ,red 0.2))
+            (red-bg     (modern-blend ,bg1 ,red 0.8))
+            (yellow-l   (modern-blend ,bg1 ,yellow 0.4))
+            (yellow-d   (modern-blend ,bg1 ,yellow 0.2))
+            (yellow-bg  (modern-blend ,bg1 ,yellow 0.8))
+            (magenta-l  (modern-blend ,bg1 ,magenta 0.4))
+            (magenta-d  (modern-blend ,bg1 ,magenta 0.2))
+            (magenta-bg (modern-blend ,bg1 ,magenta 0.8))
+            (green-l    (modern-blend ,bg1 ,green 0.4))
+            (green-d    (modern-blend ,bg1 ,green 0.2))
+            (green-bg   (modern-blend ,bg1 ,green 0.8))
+            (aqua-l     (modern-blend ,bg1 ,aqua 0.4))
+            (aqua-d     (modern-blend ,bg1 ,aqua 0.2))
+            (aqua-bg    (modern-blend ,bg1 ,aqua 0.8))
+
+
+;;; General
+            (act1          "#18303F")
+            (act2          "#18303F")
             (cblk          "#AAA198")
             (cblk-bg       "#18303F")
             (cblk-ln       "#519CCD")
