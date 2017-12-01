@@ -2,7 +2,7 @@
 
 (deftheme modern-dawn "Modern theme, the dawn version")
 
-(dyn-let (
+(let (
             (class '((class color) (min-colors 89)))
             (act1          "#18303F")
             (act2          "#18303F")
@@ -69,7 +69,7 @@
             (yellow-d      "#FFDA53")
             (yellow-bg     "#575124")
             )
+  (create-modern-theme 'modern-dawn)
+  (provide-theme 'modern-dawn)
 )
 
-(create-modern-theme 'modern-dawn)
-(provide-theme 'modern-dawn)
