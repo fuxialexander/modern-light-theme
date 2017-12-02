@@ -497,7 +497,7 @@ influence of C1 on the result."
             `(org-agenda-date-today                  ((,class (:family "operator mono" :foreground ,keyword :inherit bold ))))
             `(org-agenda-date-weekend                ((,class (:family "operator mono" :foreground ,var))))
             `(org-agenda-done                        ((,class (:family "operator mono" :foreground ,base2 ))))
-            `(org-agenda-structure                   ((,class (:family "operator mono" :weight bold :overline t :underline t :slant italic :foreground ,comp))))
+            `(org-agenda-structure                   ((,class (:family "operator mono" :weight bold :slant italic :foreground ,violet :background ,violet-bg))))
             `(org-scheduled                          ((,class (:family "operator mono" :slant italic :weight bold :foreground ,comp))))
             `(org-scheduled-today                    ((,class (:family "operator mono" :slant italic :weight bold :foreground ,func ))))
             `(org-scheduled-previously               ((,class (:family "operator mono" :slant italic :weight bold :foreground ,func ))))
