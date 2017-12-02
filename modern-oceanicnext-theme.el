@@ -1,28 +1,28 @@
 (require 'modern-common)
 
-(deftheme modern-light "Modern theme, the light version")
+(deftheme modern-oceanicnext "Modern theme, the oceanicnext version")
 
 (let* (
             (class '((class color) (min-colors 89)))
 ;;; colors
-            (base1   "#333333")
-            (base2   "#555555")
-            (base3   "#777777")
-            (base4   "#999999")
+            (base1   "#D8DEE9")
+            (base2   "#CDD3DE")
+            (base3   "#C0C5CE")
+            (base4   "#A7ADBA")
 
-            (bg1     "#FFFFFF")
-            (bg2     "#F5F5F5")
-            (bg3     "#F0F0F0")
-            (bg4     "#E4E4E4")
+            (bg1     "#1B2B34")
+            (bg2     "#343D46")
+            (bg3     "#4F5B66")
+            (bg4     "#65737E")
 
-            (aqua    "#21BBC6")
-            (green   "#52CC37")
-            (red     "#FF594B")
-            (blue    "#1159DB")
-            (magenta "#D516BB")
-            (violet  "#5831D6")
-            (yellow  "#FFC618")
-            (orange  "#FF7E0D")
+            (aqua    "#5FB3B3")
+            (green   "#99C794")
+            (red     "#EC5f67")
+            (blue    "#6699CC")
+            (magenta "#AB7967")
+            (violet  "#C594C5")
+            (yellow  "#FAC863")
+            (orange  "#F99157")
 
             (blue-l     (modern-blend bg1 blue 0.4))
             (blue-d     (modern-blend bg1 blue 0.2))
@@ -53,7 +53,7 @@
 
 ;;; General
             (act1          bg2)
-            (act2          bg3)
+            (act2          bg2)
             (cblk          base2)
             (cblk-bg       bg2)
             (cblk-ln       base3)
@@ -70,7 +70,7 @@
             (comp          violet)
             (type          red)
             (var           yellow)
-            (str           base3)
+            (str           green)
             (keyword       aqua)
 
             (highlight     (modern-blend bg1 blue 0.7))
@@ -80,7 +80,7 @@
             (ttip-bg       bg2)
 
             )
-  (create-modern-theme 'modern-light)
-  (provide-theme 'modern-light)
+  (create-modern-theme 'modern-oceanicnext)
+  (provide-theme 'modern-oceanicnext)
 )
 
