@@ -59,19 +59,20 @@
             (cblk-ln       base3)
             (cblk-ln-bg    bg3)
             (cursor        blue)
-            (const         green)
-            (comment       base4)
-            (comment-bg    bg2)
 
             (err           red)
             (war           orange)
             (suc           green)
-            (func          blue)
             (comp          violet)
+
+            (comment       base4)
+            (comment-bg    bg2)
+            (func          blue)
             (type          red)
             (var           yellow)
             (str           green)
-            (keyword       aqua)
+            (keyword       violet)
+            (const         orange)
 
             (highlight     (modern-blend bg1 blue 0.7))
 
