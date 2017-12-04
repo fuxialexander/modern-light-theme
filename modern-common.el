@@ -493,9 +493,9 @@ influence of C1 on the result."
 
 ;;;;; org
             `(org-agenda-clocking                    ((,class (:family "operator mono" :background ,highlight :foreground ,comp))))
-            `(org-agenda-date                        ((,class (:family "SF UI Display" :foreground ,blue-d :background ,blue-bg :weight bold :height 1.4))))
-            `(org-agenda-date-today                  ((,class (:family "SF UI Display" :foreground ,blue :background ,blue-bg :weight bold :height 1.4))))
-            `(org-agenda-date-weekend                ((,class (:family "SF UI Display" :foreground ,red-d :background ,red-bg :weight bold :height 1.4))))
+            `(org-agenda-date                        ((,class (:family "Operator Ssm" :foreground ,blue-d :background ,blue-bg :weight bold :height 1.3 :slant italic))))
+            `(org-agenda-date-today                  ((,class (:family "Operator Ssm" :foreground ,blue :background ,blue-bg :weight bold :height 1.3 :slant italic))))
+            `(org-agenda-date-weekend                ((,class (:family "Operator Ssm" :foreground ,red-d :background ,red-bg :weight bold :height 1.3 :slant italic))))
             `(org-agenda-done                        ((,class (:family "operator mono" :foreground ,base2 ))))
             `(org-agenda-structure                   ((,class (:family "operator mono" :weight bold :slant italic :foreground ,violet :background ,violet-bg))))
             `(org-scheduled                          ((,class (:family "operator mono" :slant italic :weight bold :foreground ,comp))))
