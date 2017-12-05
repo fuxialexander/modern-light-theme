@@ -1,10 +1,17 @@
 * Modern-theme
-Theme based on ~spacemacs-theme~, ~tomorrow~ and ~doom-one-light~
+  Faces based on ~spacemacs-theme~, ~tomorrow~ and ~doom-one-light~
+  Colors based on Solarized, Spacegray, Oceanic Next and potentially other themes.
+  I've refactored the code so that all color are defined in an base16 manner: the lighter / darker / background version of colors are now made using color mix function. That means it's really easy to port other colorscheme to this pack, which may contains more curated faces.
+  The themes list now including:
+   - Solarized Light
+   - Solarized Dark
+   - Spacegrey
+   - Oceanic Next
+   - Dark (Pure black background for deep night)
+   - Dawn
+   - Light (Pure white background for side-by-side with web browser / other applications)
 
-Three variants available for now:
-- ~modern-light~
-- ~modern-dark~
-- ~modern-dawn~
+     PRs porting other colorschemes are welcome. 
 
 ** Install
    On spacemacs ~develop~ branch:
@@ -13,17 +20,6 @@ Three variants available for now:
    #+END_SRC
 
 ** Included themes
-   I've refactored the code so that all color are defined in an base16 manner: the lighter / darker / background version of colors are now made using color mix function. That means it's really easy to port other colorscheme to this pack, which may contains more curated faces.
-   The themes list now including:
-   - Solarized Light
-   - Solarized Dark
-   - Spacegrey
-   - Oceanic Next
-   - Dark (Pure black background for deep night)
-   - Dawn
-   - Light (Pure white background for side-by-side with web browser / other applications)
-   
-   PRs porting other colorschemes are welcome. 
-   
+  
 ** Known issue
    Only works for GUI emacs or true color terminals.
