@@ -9,12 +9,21 @@ Three variants available for now:
 ** Install
    On spacemacs ~develop~ branch:
    #+BEGIN_SRC elisp
-   dotspacemacs-themes '(
-                         (modern-dawn :location (recipe :fetcher github :repo "fuxialexander/modern-light-theme"))
-                         (modern-dark :location (recipe :fetcher github :repo "fuxialexander/modern-light-theme"))
-                         (modern-light :location (recipe :fetcher github :repo "fuxialexander/modern-light-theme"))
-                         )
+   dotspacemacs-themes '((modern-solarizedlight :location (recipe :fetcher github :repo "fuxialexander/modern-light-theme")))
    #+END_SRC
 
+** Included themes
+   I've refactored the code so that all color are defined in an base16 manner: the lighter / darker / background version of colors are now made using color mix function. That means it's really easy to port other colorscheme to this pack, which may contains more curated faces.
+   The themes list now including:
+   - Solarized Light
+   - Solarized Dark
+   - Spacegrey
+   - Oceanic Next
+   - Dark (Pure black background for deep night)
+   - Dawn
+   - Light (Pure white background for side-by-side with web browser / other applications)
+   
+   PRs porting other colorschemes are welcome. 
+   
 ** Known issue
-   Only works for GUI emacs, in terminal it fallbacks to ~spacemacs-dark~ or ~spacemacs-light~.
+   Only works for GUI emacs or true color terminals.
