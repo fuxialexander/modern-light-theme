@@ -166,7 +166,7 @@ influence of C1 on the result."
             `(doom-modeline-panel                    ((,class (:family "Input Mono Condensed" :background ,blue :foreground ,bg1 :bold t  ))))
             `(doom-modeline-perspname                ((,class (:family "Input Mono Condensed" :foreground ,magenta :bold t  ))))
             `(doom-modeline-workspace-number         ((,class (:family "Input Mono Condensed" :foreground ,violet :weight normal  ))))
-            `(doom-modeline-workspace-number-inactive         ((,class (:family "Input Mono Condensed" :foreground ,base :weight normal  ))))
+            `(doom-modeline-workspace-number-inactive         ((,class (:family "Input Mono Condensed" :foreground ,base1 :weight normal  ))))
             `(doom-modeline-info                     ((,class (:family "Input Mono Condensed" :bold t :foreground ,green))))
             `(doom-modeline-warning                  ((,class (:family "Input Mono Condensed" :bold t :foreground ,yellow))))
             `(doom-modeline-urgent                   ((,class (:family "Input Mono Condensed" :bold t :foreground ,orange))))
