@@ -81,6 +81,8 @@ influence of C1 on the result."
 
             `(bold                                   ((,class (:foreground ,base3 :bold t))))
             `(variable-pitch                         ((,class (:height 1.2 :spacing 1.5 :family "Operator Ssm"))))
+;;;;; ace-window
+            `(aw-leading-char-face                   ((,class (:background ,bg1 :foreground ,red :height 5.0        ))))
 
 ;;;;; Notmuch
 
