@@ -139,7 +139,7 @@ influence of C1 on the result."
             `(elfeed-search-feed-face                ((,class (:foreground ,yellow   :height 1.0    ))))
             `(elfeed-search-filter-face              ((,class (:foreground ,red-l    :height 1.0    ))))
             `(elfeed-search-last-update-face         ((,class (:foreground ,magenta-l   :height 1.0 ))))
-            `(elfeed-search-tag-face                 ((,class (:foreground ,blue-d :background ,blue-bg :bold t :height 1.0   ))))
+            `(elfeed-search-tag-face                 ((,class (:foreground ,blue-d :bold t :height 1.0   ))))
             `(elfeed-search-title-face               ((,class (:foreground ,base1    :height 1.0     ))))
             `(elfeed-search-unread-count-face        ((,class (:foreground ,blue-l    :height 1.0   ))))
             `(elfeed-search-unread-title-face        ((,class (:foreground ,base3  :height 1.0 :bold t))))
