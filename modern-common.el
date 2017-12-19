@@ -221,7 +221,7 @@ influence of C1 on the result."
             `(font-lock-variable-name-face            ((,class (:foreground ,var))))
             `(font-lock-warning-face                  ((,class (:foreground ,war :background ,bg1))))
             `(fringe                                  ((,class (:background ,bg1 :foreground ,base1))))
-            `(header-line                             ((,class :background ,act1)))
+            `(header-line                             ((,class :background ,act2)))
             `(highlight                               ((,class (:foreground ,base1 :background ,highlight))))
             `(hl-line                                 ((,class (:background ,bg2))))
             `(isearch                                 ((,class (:foreground ,bg1 :background ,magenta))))
