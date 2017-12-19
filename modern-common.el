@@ -90,7 +90,7 @@ influence of C1 on the result."
             `(ahs-plugin-whole-buffer-face            ((,class (:background ,bg3))))
             `(ahs-plugin-bod-face                     ((,class (:background ,blue-bg))))
             `(ahs-edit-mode-face                      ((,class (:background ,yellow :foreground ,bg1))))
-            `(ahs-definition-face                     ((,class (:background ,green-bg :foreground ,base))))
+            `(ahs-definition-face                     ((,class (:background ,green-bg :foreground ,base1))))
             `(ahs-plugin-defalt-face                  ((,class (:background ,blue-bg))))
 ;;;;; Notmuch
 
