@@ -1,6 +1,6 @@
 (require 'modern-common)
 
-(deftheme modern-oceanicnext "Modern theme, the oceanicnext version")
+(deftheme modern-zerodark "Modern theme, the zerodark version")
 
 (let* (
             (class '((class color) (min-colors 89)))
@@ -81,7 +81,7 @@
             (ttip-bg       bg2)
 
             )
-  (create-modern-theme 'modern-oceanicnext)
-  (provide-theme 'modern-oceanicnext)
+  (create-modern-theme 'modern-zerodark)
+  (provide-theme 'modern-zerodark)
 )
 
