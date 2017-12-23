@@ -85,7 +85,7 @@ influence of C1 on the result."
    `(aw-leading-char-face                    ((,class (:foreground ,red :height 5.0 ))))
 ;;;;; doom-emacs
    `(doom-modeline-eldoc-bar                 ((,class (:inherit shadow))))
-   `(doom-modeline-warning                   ((,class (:foreground ,base1 :background ,orange :distant-foreground ,red))))
+   `(doom-modeline-warning                   ((,class (:foreground ,orange :background ,base1 :distant-foreground ,red))))
    `(doom-modeline-buffer-major-mode         ((,class (:foreground ,aqua :weight bold))))
    `(doom-modeline-bar                       ((,class (:background ,blue))))
    `(doom-modeline-inactive-bar              ((,class (:background ,blue-bg))))
@@ -191,19 +191,19 @@ influence of C1 on the result."
    `(message-separator                       ((,class (:foreground ,blue-bg ))))
 
 ;;;;; doom-line
-   `(doom-modeline-buffer-path               ((,class (:foreground ,aqua :bold t ))))
-   `(doom-modeline-project-root-dir          ((,class (:foreground ,aqua :bold t ))))
-   `(doom-modeline-buffer-file               ((,class (:foreground ,blue :bold t ))))
-   `(doom-modeline-buffer-modified           ((,class (:foreground ,magenta :bold t ))))
-   `(doom-modeline-buffer-major-mode         ((,class (:foreground ,blue :bold t ))))
-   `(doom-modeline-highlight                 ((,class (:background ,blue :bold t ))))
-   `(doom-modeline-panel                     ((,class (:background ,blue :foreground ,bg1 :bold t ))))
-   `(doom-modeline-perspname                 ((,class (:foreground ,magenta :bold t ))))
-   `(doom-modeline-workspace-number          ((,class (:foreground ,violet :weight normal ))))
-   `(doom-modeline-workspace-number-inactive ((,class (:foreground ,base1 :weight normal ))))
-   `(doom-modeline-info                      ((,class (:bold t :foreground ,green))))
-   `(doom-modeline-warning                   ((,class (:bold t :foreground ,yellow))))
-   `(doom-modeline-urgent                    ((,class (:bold t :foreground ,orange))))
+   ;; `(doom-modeline-buffer-path               ((,class (:foreground ,aqua :bold t ))))
+   ;; `(doom-modeline-project-root-dir          ((,class (:foreground ,aqua :bold t ))))
+   ;; `(doom-modeline-buffer-file               ((,class (:foreground ,blue :bold t ))))
+   ;; `(doom-modeline-buffer-modified           ((,class (:foreground ,magenta :bold t ))))
+   ;; `(doom-modeline-buffer-major-mode         ((,class (:foreground ,blue :bold t ))))
+   ;; `(doom-modeline-highlight                 ((,class (:background ,blue :bold t ))))
+   ;; `(doom-modeline-panel                     ((,class (:background ,blue :foreground ,bg1 :bold t ))))
+   ;; `(doom-modeline-perspname                 ((,class (:foreground ,magenta :bold t ))))
+   ;; `(doom-modeline-workspace-number          ((,class (:foreground ,violet :weight normal ))))
+   ;; `(doom-modeline-workspace-number-inactive ((,class (:foreground ,base1 :weight normal ))))
+   ;; `(doom-modeline-info                      ((,class (:bold t :foreground ,green))))
+   ;; `(doom-modeline-warning                   ((,class (:bold t :foreground ,yellow))))
+   ;; `(doom-modeline-urgent                    ((,class (:bold t :foreground ,orange))))
 
    `(mode-line                               ((,class (:foreground ,base1 :weight bold :background ,act1 ))))
    `(mode-line-buffer-id                     ((,class (:weight bold :foreground ,func ))))
@@ -211,9 +211,9 @@ influence of C1 on the result."
    `(mode-line-highlight                     ((,class (:background ,act1 :foreground ,base1 :weight bold ))))
    `(mode-line-emphasis                      ((,class (:background ,act1 :foreground ,yellow-l :weight bold ))))
 
-   `(doom-modeline-bar                       ((,class (:background ,blue))))
+   ;; `(doom-modeline-bar                       ((,class (:background ,blue))))
    ;; `(doom-modeline-eldoc-bar              ((,class ())))
-   `(doom-modeline-inactive-bar              ((,class (:background ,blue-l))))
+   ;; `(doom-modeline-inactive-bar              ((,class (:background ,blue-l))))
 
    `(window-divider                          ((,class (:foreground ,act1))))
 
@@ -223,6 +223,13 @@ influence of C1 on the result."
    `(git-gutter+-deleted                     ((,class (:foreground ,red-d :weight bold))))
    `(git-gutter+-modified                    ((,class (:foreground ,yellow-d :weight bold))))
    `(git-gutter+-separator                   ((,class (:foreground ,blue-d :weight bold))))
+   `(git-gutter:added                       ((,class (:foreground ,green-d :weight bold))))
+   `(git-gutter:deleted                     ((,class (:foreground ,red-d :weight bold))))
+   `(git-gutter:modified                    ((,class (:foreground ,yellow-d :weight bold))))
+   `(git-gutter:separator                   ((,class (:foreground ,blue-d :weight bold))))
+   `(git-gutter-fr:added                       ((,class (:foreground ,green-d :weight bold))))
+   `(git-gutter-fr:deleted                     ((,class (:foreground ,red-d :weight bold))))
+   `(git-gutter-fr:modified                    ((,class (:foreground ,yellow-d :weight bold))))
 
 
 ;;;;; basics
