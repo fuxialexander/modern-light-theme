@@ -1,9 +1,9 @@
-;;; modern-common.el --- Color theme with a dark and light versions.
+;;; modern-common.el
 
 ;; Copyright (C) 2015-2016 Nasser Alshammari
 
-;; Author: Nasser Alshammari
-;; URL: <https://github.com/nashamri/modern-theme>
+;; Author: Alexander Fu Xi
+;; URL: <https://github.com/fuxialexander/modern-light-theme>
 ;;
 ;; Version: 0.1
 
@@ -83,6 +83,21 @@ influence of C1 on the result."
    `(variable-pitch                          ((,class (:height 1.2 :spacing 1.5 :family "Operator Ssm"))))
 ;;;;; ace-window
    `(aw-leading-char-face                    ((,class (:foreground ,red :height 5.0 ))))
+;;;;; doom-emacs
+   `(doom-modeline-eldoc-bar                 ((,class (:inherit shadow))))
+   `(doom-modeline-warning                   ((,class (:foreground ,base1 :background ,orange :distant-foreground ,red))))
+   `(doom-modeline-buffer-major-mode         ((,class (:foreground ,aqua :weight bold))))
+   `(doom-modeline-bar                       ((,class (:background ,blue))))
+   `(doom-modeline-inactive-bar              ((,class (:background ,blue-bg))))
+   `(doom-modeline-buffer-modified           ((,class (:foreground ,orange :weight bold))))
+   `(doom-modeline-buffer-path               ((,class (:foreground ,aqua :weight bold))))
+   `(doom-modeline-urgent                    ((,class (:foreground ,yellow :weight bold))))
+   `(doom-modeline-info                      ((,class (:foreground ,green :weight bold))))
+   `(doom-modeline-highlight                 ((,class (:background ,blue :weight bold))))
+   `(doom-modeline-buffer-file               ((,class (:foreground ,blue :weight bold))))
+   `(doom-modeline-panel                     ((,class (:foreground ,base1 :background ,aqua))))
+   `(doom-modeline-error                     ((,class (:foreground ,base1 :background ,red :distant-foreground ,red))))
+
 ;;;;; Imenu
 
    `(imenu-list-entry-face-0                 ((,class (:inherit org-level-1))))
