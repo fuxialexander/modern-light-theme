@@ -10,6 +10,7 @@
             (base3   "#777777")
             (base4   "#999999")
 
+            (bg0     "#FFFFFF")
             (bg1     "#FFFFFF")
             (bg2     "#F5F5F5")
             (bg3     "#F0F0F0")
