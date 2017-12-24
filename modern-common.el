@@ -95,7 +95,7 @@ influence of C1 on the result."
    `(doom-modeline-info                      ((,class (:foreground ,green :weight bold))))
    `(doom-modeline-highlight                 ((,class (:background ,blue :weight bold))))
    `(doom-modeline-buffer-file               ((,class (:foreground ,blue :weight bold))))
-   `(doom-modeline-panel                     ((,class (:foreground ,base1 :background ,aqua))))
+   `(doom-modeline-panel                     ((,class (:foreground ,base1 :background ,blue))))
    `(doom-modeline-error                     ((,class (:foreground ,base1 :background ,red :distant-foreground ,red))))
 
 ;;;;; Imenu
