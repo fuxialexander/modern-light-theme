@@ -85,7 +85,7 @@ influence of C1 on the result."
    `(aw-leading-char-face                    ((,class (:foreground ,red :height 5.0 ))))
 ;;;;; doom-emacs
    `(doom-modeline-eldoc-bar                 ((,class (:inherit shadow))))
-   `(doom-modeline-warning                   ((,class (:foreground ,orange :background ,base1 :distant-foreground ,red))))
+   `(doom-modeline-warning                   ((,class (:foreground ,orange))))
    `(doom-modeline-buffer-major-mode         ((,class (:foreground ,aqua :weight bold))))
    `(doom-modeline-bar                       ((,class (:background ,blue))))
    `(doom-modeline-inactive-bar              ((,class (:background ,blue-bg))))
