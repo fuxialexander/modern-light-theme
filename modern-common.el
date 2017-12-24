@@ -79,6 +79,7 @@ influence of C1 on the result."
   (custom-theme-set-faces
    theme-name
 
+   `(default                                 ((,class (:background ,bg1 :foreground ,base1))))
    `(bold                                    ((,class (:foreground ,base3 :bold t))))
    `(variable-pitch                          ((,class (:height 1.2 :spacing 1.5 :family "Operator Ssm"))))
 ;;;;; ace-window
@@ -97,6 +98,13 @@ influence of C1 on the result."
    `(doom-modeline-buffer-file               ((,class (:foreground ,blue :weight bold))))
    `(doom-modeline-panel                     ((,class (:foreground ,base1 :background ,blue))))
    `(doom-modeline-error                     ((,class (:foreground ,base1 :background ,red :distant-foreground ,red))))
+   `(solaire-org-hide-face ((,class (:foreground ,bg0))))
+   `(solaire-minibuffer-face ((,class (:inherit default))))
+   `(solaire-line-number-face ((,class (:inherit default))))
+   `(solaire-default-face ((,class (:inherit default :background ,bg0))))
+   `(solaire-hl-line-face ((,class (:inherit hl-line :background ,bg1))))
+   `(solaire-mode-line-inactive-face ((,class (:inherit mode-line-inactive))))
+   `(solaire-mode-line-face ((,class (:inherit mode-line))))
 
 ;;;;; Imenu
 
@@ -235,7 +243,6 @@ influence of C1 on the result."
 ;;;;; basics
    `(cursor                                  ((,class (:background ,cursor))))
    `(custom-button                           ((,class :background ,bg2 :foreground ,base1 :box (:line-width 1 :style ))))
-   `(default                                 ((,class (:background ,bg1 :foreground ,base1))))
    `(default-italic                          ((,class (:italic t))))
    `(error                                   ((,class (:foreground ,err))))
    `(eval-sexp-fu-flash                      ((,class (:background ,suc :foreground ,bg1))))
