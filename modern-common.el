@@ -213,7 +213,7 @@ influence of C1 on the result."
    ;; `(doom-modeline-warning                   ((,class (:bold t :foreground ,yellow))))
    ;; `(doom-modeline-urgent                    ((,class (:bold t :foreground ,orange))))
 
-   `(mode-line                               ((,class (:foreground ,base1 :weight bold :background ,act1 ))))
+   `(mode-line                               ((,class (:foreground ,base1 :weight ultra-light :background ,act1 ))))
    `(mode-line-buffer-id                     ((,class (:weight bold :foreground ,func ))))
    `(mode-line-inactive                      ((,class (:foreground ,base2 :weight bold :background ,act1 ))))
    `(mode-line-highlight                     ((,class (:background ,act1 :foreground ,base1 :weight bold ))))
