@@ -301,7 +301,7 @@ influence of C1 on the result."
    `(company-tooltip-common                  ((,class (:background ,ttip-bg :foreground ,base1))))
    `(company-tooltip-common-selection        ((,class (:foreground ,base1))))
    `(company-tooltip-mouse                   ((,class (:inherit highlight))))
-   `(company-tooltip-search                  ((,class (:inherit match))))
+   `(company-tooltip-search                  ((,class (:foreground ,blue))))
    `(company-tooltip-selection               ((,class (:background ,ttip-sl :foreground ,base1))))
 
 ;;;;; diff
