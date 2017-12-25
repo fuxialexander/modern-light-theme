@@ -298,11 +298,11 @@ influence of C1 on the result."
    `(company-template-field                  ((,class (:inherit region))))
    `(company-tooltip                         ((,class (:background ,ttip-bg :foreground ,ttip))))
    `(company-tooltip-annotation              ((,class (:foreground ,keyword))))
-   `(company-tooltip-common                  ((,class (:background ,ttip-bg :foreground ,base1))))
-   `(company-tooltip-common-selection        ((,class (:foreground ,base1))))
+   `(company-tooltip-common                  ((,class (:background ,ttip-bg :foreground ,blue))))
+   `(company-tooltip-common-selection        ((,class (:background ,ttip-sl :foreground ,blue))))
    `(company-tooltip-mouse                   ((,class (:inherit highlight))))
-   `(company-tooltip-search                  ((,class (:foreground ,blue))))
-   `(company-tooltip-selection               ((,class (:background ,ttip-sl :foreground ,base1))))
+   `(company-tooltip-search                  ((,class (:foreground ,red))))
+   `(company-tooltip-selection               ((,class (:background ,ttip-sl :foreground ,red))))
 
 ;;;;; diff
    `(diff-added                              ((,class :background nil :foreground ,green)))
