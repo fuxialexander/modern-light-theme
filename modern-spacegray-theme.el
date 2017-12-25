@@ -77,7 +77,7 @@
             (highlight     (modern-blend bg1 blue 0.7))
 
             (ttip          base2)
-            (ttip-sl       bg1)
+            (ttip-sl       bg2)
             (ttip-bg       bg2)
 
             )
