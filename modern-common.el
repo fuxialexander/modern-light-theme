@@ -94,7 +94,7 @@ influence of C1 on the result."
    `(doom-modeline-warning                   ((,class (:inherit unspecified :slant normal :foreground ,orange :weight bold))))
    `(doom-modeline-urgent                    ((,class (:inherit unspecified :slant normal :foreground ,yellow :weight bold))))
    `(doom-modeline-info                      ((,class (:inherit unspecified :slant normal :foreground ,green :weight bold))))
-   `(doom-modeline-highlight                 ((,class (:inherit unspecified :slant normal :background ,blue :weight bold))))
+   `(doom-modeline-highlight                 ((,class (:inherit unspecified :slant normal :foreground ,act1 :background ,blue :weight bold))))
    `(doom-modeline-buffer-file               ((,class (:inherit unspecified :slant normal :foreground ,blue :weight bold))))
    `(doom-modeline-panel                     ((,class (:inherit unspecified :slant normal :foreground ,act1 :background ,blue :weight bold))))
    `(doom-modeline-error                     ((,class (:inherit unspecified :slant normal :foreground ,base1 :background ,red :distant-foreground ,red))))

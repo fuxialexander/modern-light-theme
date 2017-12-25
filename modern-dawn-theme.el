@@ -77,9 +77,8 @@
             (highlight     (modern-blend bg1 blue 0.9))
 
             (ttip          base2)
-            (ttip-sl       bg4)
+            (ttip-sl       bg1)
             (ttip-bg       bg2)
-
 
             )
   (create-modern-theme 'modern-dawn)
