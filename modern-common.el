@@ -729,6 +729,16 @@ influence of C1 on the result."
    `(whitespace-tab                          ((,class ( :background nil))))
    `(whitespace-trailing                     ((,class ( :background ,err :foreground ,war))))
 
+;;;;; compilation
+   ;; `(compilation-mode-line-exit ((,class (:foreground ,green :background ,bg1 :weight ultra-light :slant italic))))
+   ;; `(compilation-mode-line-run  ((,class (:foreground ,yellow :background ,bg1 :weight ultra-light :slant italic))))
+   ;; `(compilation-mode-line-fail ((,class (:foreground ,red :background ,bg1 :weight ultra-light :slant italic))))
+   `(compilation-error          ((,class (:foreground ,err    :weight light :slant italic))))
+   `(compilation-info           ((,class (:foreground ,base3  :weight light :slant italic))))
+   `(compilation-column-number  ((,class (:foreground ,blue   :weight light :slant italic))))
+   `(compilation-line-number    ((,class (:foreground ,blue   :weight light :slant italic))))
+   `(compilation-warning        ((,class (:foreground ,orange :weight light :slant italic))))
+
 ;;;;; other, need more work
    `(ac-completion-face                      ((,class ( :underline t :foreground ,keyword))))
    `(ffap                                    ((,class ( :foreground ,base1))))
