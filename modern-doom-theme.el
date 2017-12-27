@@ -16,7 +16,7 @@
             (bg3     "#3f444a")
             (bg4     "#5B6268")
 
-            (aqua    "#46D9FF")
+            (aqua    "#5699AF")
             (green   "#98be65")
             (red     "#ff6c6b")
             (blue    "#51afef")
