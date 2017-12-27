@@ -68,12 +68,12 @@
 
             (comment       base4)
             (comment-bg    bg2)
-            (func          blue)
-            (type          red)
-            (var           yellow)
+            (func          magenta)
+            (type          yellow)
+            (var           magenta-d)
             (str           green)
-            (keyword       violet)
-            (const         orange)
+            (keyword       blue)
+            (const         yellow)
 
             (highlight     (modern-blend bg1 blue 0.7))
 
