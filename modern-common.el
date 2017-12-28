@@ -550,6 +550,7 @@ influence of C1 on the result."
    `(org-agenda-date-weekend                 ((,class ( :foreground ,red-d :background ,red-bg :weight bold :height 1.3 :slant italic))))
    `(org-agenda-done                         ((,class ( :foreground ,base2 ))))
    `(org-agenda-structure                    ((,class ( :weight bold :slant italic :foreground ,violet :background ,violet-bg))))
+   `(org-upcoming-deadline                   ((,class ( :slant italic :weight bold :foreground ,red-l))))
    `(org-scheduled                           ((,class ( :slant italic :weight bold :foreground ,comp))))
    `(org-scheduled-today                     ((,class ( :slant italic :weight bold :foreground ,func ))))
    `(org-scheduled-previously                ((,class ( :slant italic :weight bold :foreground ,func ))))
