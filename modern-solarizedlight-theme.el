@@ -10,7 +10,7 @@
             (base3   "#839496")
             (base4   "#93a1a1")
 
-            (bg0     "#fdf6e3")
+            (bg0     "#FFFAEC")
             (bg1     "#fdf6e3")
             (bg2     "#FFEFD6")
             (bg3     "#F2E3CB")
