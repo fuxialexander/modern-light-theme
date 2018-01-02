@@ -1,25 +1,33 @@
 * Modern-theme
-  Faces based on ~spacemacs-theme~, ~tomorrow~ and ~doom-one-light~
-  Colors based on Solarized, Spacegray, Oceanic Next and potentially other themes.
-  I've refactored the code so that all color are defined in an base16 manner: the lighter / darker / background version of colors are now made using color mix function. That means it's really easy to port other colorscheme to this pack, which may contains more curated faces.
-  The themes list now including:
-   - Solarized Light
-   - Solarized Dark
-   - Spacegrey
-   - Oceanic Next
-   - Dark (Pure black background for deep night)
-   - Dawn
-   - Light (Pure white background for side-by-side with web browser / other applications)
-
-     PRs porting other colorschemes are welcome. 
-
+:PROPERTIES:
+:ID:       E752D570-FA32-429B-A949-D15368AA1609
+:END:
+Faces based on ~spacemacs-theme~, ~tomorrow~ and ~doom-one-light~
+Colors based on Solarized, Spacegray, Oceanic Next and potentially other themes.
+I've refactored the code so that all color are defined in an base16 manner: the lighter / darker / background version of colors are now made using color mix function. That means it's really easy to port other colorscheme to this pack, which may contains more curated faces.
+The themes list now including:
+- Solarized Light
+- Solarized Dark
+- Spacegrey
+- Oceanic Next
+- Dark (Pure black background for deep night)
+- Dawn
+- Light (Pure white background for side-by-side with web browser / other applications)
+PRs porting other colorschemes are welcome.
 ** Install
-   On spacemacs ~develop~ branch:
-   #+BEGIN_SRC elisp
-   dotspacemacs-themes '((modern-solarizedlight :location (recipe :fetcher github :repo "fuxialexander/modern-light-theme")))
-   #+END_SRC
-
+:PROPERTIES:
+:ID:       816C2E0F-7E09-42D6-96B8-68AB8D80CD7F
+:END:
+On spacemacs ~develop~ branch:
+#+BEGIN_SRC elisp
+dotspacemacs-themes '((modern-solarizedlight :location (recipe :fetcher github :repo "fuxialexander/modern-light-theme")))
+#+END_SRC
 ** Included themes
-  
+:PROPERTIES:
+:ID:       A9E9945C-23C2-4968-93C2-67A660ADFEB2
+:END:
 ** Known issue
-   Only works for GUI emacs or true color terminals.
+:PROPERTIES:
+:ID:       1811E257-FA6C-4938-AAC3-DF709FBEBF43
+:END:
+Only works for GUI emacs or true color terminals.
